@@ -1,0 +1,16 @@
+{
+  "name": "n4o-databases",
+  "version": "0.0.1",
+  "description": "List of databases from N4O members to be integrated",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^6.3.6",
+    "wikibase-sdk": "^9.2.4"
+  }
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "KENOM",
+    "wikidata": "http://www.wikidata.org/entity/Q21040628",
+    "publisher": [
+      "Verbundzentrale des GBV"
+    ],
+    "url": "http://www.kenom.de",
+    "apis": [
+      {
+        "url": "https://www.kenom.de/oai/",
+        "protocol": [
+          "Open Archives Initiative Protocol for Metadata Harvesting"
+        ],
+        "format": [
+          "Lightweight Information Describing Objects"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Samian Research",
+    "wikidata": "http://www.wikidata.org/entity/Q90412636",
+    "publisher": [
+      "Allard Wijnand Mees"
+    ],
+    "url": "http://rgzm.de/samian",
+    "apis": [
+      {
+        "url": "https://geo.rgzm.de/geoserver/ows",
+        "protocol": [],
+        "format": []
+      },
+      {
+        "url": "http://www.rgzm.de/rest/samianresearch/",
+        "protocol": [],
+        "format": []
+      }
+    ]
+  },
+  {
+    "name": "Münzkabinett",
+    "wikidata": "http://www.wikidata.org/entity/Q323169",
+    "publisher": [],
+    "url": "https://www.smb.museum/mk",
+    "apis": []
+  },
+  {
+    "name": "montan.dok",
+    "wikidata": "http://www.wikidata.org/entity/Q124504881",
+    "publisher": [
+      "Deutsches Bergbau-Museum Bochum"
+    ],
+    "url": "https://www.montandok.de/",
+    "apis": []
+  }
+]
