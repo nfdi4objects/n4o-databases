@@ -4,12 +4,12 @@ Dieses Repository enthält Verweise auf Forschungsdatenbanken von Mitgliedern de
 
 ## Dokumentation
 
-Der Datensatz besteht aus der CSV-Datei `no4-databases.csv` mit zwei Spalten:
+Der Datensatz besteht aus der CSV-Datei [`no4-databases.csv`] mit zwei Spalten:
 
 - `name` der Datenbank
 - `wikidata` Identifier der Datenbank (QID)
 
-Alle weiteren Informationen werden in Wikidata eingetragen und von dort abgerufen und in die Datei `n4o-databases.json` geschrieben. Jede Datenbank ist dabei mit folgenden Feldern beschrieben:
+Alle weiteren Informationen werden in Wikidata eingetragen und von dort abgerufen und in die Datei [`n4o-databases.json`] geschrieben. Jede Datenbank ist dabei mit folgenden Feldern beschrieben:
 
 - `name` der Datenbank
 - `wikidata` URI in Wikidata
@@ -27,7 +27,7 @@ In Wikidata sollten folgende Angaben eingetragen werden:
 
 ## Zusammenführen der Daten
 
-Zum Zusammenführen der Daten aus [`no4-databases.csv`](no4-databases.csv) und Wikidata Node benötigt:
+Zum Zusammenführen der Daten aus [`no4-databases.csv`] und Wikidata Node benötigt:
 
     git clone https://github.com/nfdi4objects/n4o-databases.git
     npn install
@@ -36,3 +36,6 @@ Zum Zusammenführen der Daten aus [`no4-databases.csv`](no4-databases.csv) und W
 ## Lizenz
 
 Alle Daten stehen als Public Domain (CC0) frei zur Verfügung. 
+
+[`no4-databases.csv`]: no4-databases.csv
+[`no4-databases.json`]: no4-databases.json
