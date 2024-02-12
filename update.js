@@ -55,7 +55,7 @@ fs.writeFileSync('n4o-databases.json',json)
 
 for (let item of items) {
   item["@context"] = context
-  item.type = ['dcat:Catalog','nfdi4core:DataPortal','fabio:Database']
+  item.type = ['dcat:Catalog','nfdicore:DataPortal','fabio:Database']
 }
 const nquads = await jsonld.toRDF(items, {format: 'application/n-quads'})
 fs.writeFileSync('n4o-databases.nt',nquads)
