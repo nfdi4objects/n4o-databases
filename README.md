@@ -4,7 +4,7 @@ Dieses Repository enthält Verweise auf Forschungsdatenbanken von Mitgliedern de
 
 ## Dokumentation
 
-Der Datensatz besteht aus der CSV-Datei [`no4-databases.csv`] mit zwei Spalten:
+Der Datensatz besteht aus der CSV-Datei [`n4o-databases.csv`] mit zwei Spalten:
 
 - `name` der Datenbank
 - `wikidata` Identifier der Datenbank (QID)
@@ -25,9 +25,11 @@ In Wikidata sollten folgende Angaben eingetragen werden:
   - [Protokoll](https://www.wikidata.org/wiki/Property:P2700) (P2700)
   - [Dateiformat](https://www.wikidata.org/wiki/Q1249973) (P2701)
 
+Ein Beispieldatesatz ist <https://www.wikidata.org/wiki/Q21040628> (KENOM).
+
 ## Zusammenführen der Daten
 
-Zum Zusammenführen der Daten aus [`no4-databases.csv`] und Wikidata Node benötigt:
+Zum Zusammenführen der Daten aus [`n4o-databases.csv`] und Wikidata Node benötigt:
 
     git clone https://github.com/nfdi4objects/n4o-databases.git
     npn install
@@ -37,5 +39,5 @@ Zum Zusammenführen der Daten aus [`no4-databases.csv`] und Wikidata Node benöt
 
 Alle Daten stehen als Public Domain (CC0) frei zur Verfügung. 
 
-[`no4-databases.csv`]: no4-databases.csv
-[`no4-databases.json`]: no4-databases.json
+[`n4o-databases.csv`]: n4o-databases.csv
+[`n4o-databases.json`]: n4o-databases.json
