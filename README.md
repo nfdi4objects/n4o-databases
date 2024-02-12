@@ -12,10 +12,19 @@ Der Datensatz besteht aus der CSV-Datei [`n4o-databases.csv`] mit zwei Spalten:
 Alle weiteren Informationen werden in Wikidata eingetragen und von dort abgerufen und in die Datei [`n4o-databases.json`] geschrieben. Jede Datenbank ist dabei mit folgenden Feldern beschrieben:
 
 - `name` der Datenbank
-- `wikidata` URI in Wikidata
+- `wikidata` QID in Wikidata
 - `url`  Homepage
-- `publisher` Herausgeber
-- `apis` Schnittstellen mit `url`, `protocol` und `format`
+- `publisher` Herausgeber mit `name` und `wikidata` QID
+- `api` Schnittstellen mit `url`, `protocol` und `format`
+
+Zusätzlich wird die JSON-Datei als JSON-LD mit [diesem Kontext](context.json) nach RDF konvertiert und im NTriples-Format in der Datei [`n4o-databases.nt`] gespeichert. Dabei wird im Wesentlichen das Datenmodell des [NFDI4Culture Knowledge Graph](https://nfdi4culture.de/de/dienste/details/culture-knowledge-graph.html) verwendet mit folgenden Unterschieden:
+
+- Zur Angabe einer Homepage wird `foaf:url` verwendet, da diese RDF Property bereits etabliert ist
+- Es werden keinen eigenen URIs für Herausgeber, APIs und Dateiformate gebildet sondern Wikidata-URIs verwendet
+
+## Erweiterung und Änderung der Daten
+
+Die Datei [`n4o-databases.csv`] kann per Pull-Request in GitHub geändert werden.
 
 In Wikidata sollten folgende Angaben eingetragen werden:
 
@@ -41,3 +50,4 @@ Alle Daten stehen als Public Domain (CC0) frei zur Verfügung.
 
 [`n4o-databases.csv`]: n4o-databases.csv
 [`n4o-databases.json`]: n4o-databases.json
+[`n4o-databases.nt`]: n4o-databases.nt

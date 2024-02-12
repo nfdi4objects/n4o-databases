@@ -1,33 +1,23 @@
 #!/usr/bin/env node
 
 import fs from 'fs'
+import jsonld from 'jsonld'
 import wdk from 'wikibase-sdk/wikidata.org'
 import { parse } from 'csv-parse/sync'
+
+const wdquery = async query =>
+    fetch(wdk.getEntities(query)).then(res => res.json()).then(res => Object.values(res.entities))
+
 const csv = fs.readFileSync('n4o-databases.csv', 'utf-8')
 const dbs = parse(csv, { columns: true, trim: true })
+const context = JSON.parse(fs.readFileSync('context.json'))
 
-const wdquery = async url => fetch(url).then(res => res.json()).then(res => Object.values(res.entities))
-/*
-const items = fs.readFileSync('items.json', 'utf-8')
-
-const items = {
-  Q2430433: "OAI-PMH",
-  Q1249973: "LIDO"
-}
-
-const lookup = qid => {
-  if (qid in items) {
-      return items[qid].prefLabel.de : qid
-}
-*/
 // get dabases with known Wikidata identifier   
 var ids = dbs.map(db => db.wikidata).filter(Boolean)
 
-var url = wdk.getEntities({ ids })
-const dbitems = await wdquery(url)
-const items = dbitems.map(item => {
+const items = (await wdquery({ ids })).map(item => {
   const { id, labels, claims } = wdk.simplify.entity(item)
-  const apis = (wdk.simplify.claims(item.claims, { keepQualifiers: true }).P6269 || [])
+  const api = (wdk.simplify.claims(item.claims, { keepQualifiers: true }).P6269 || [])
     .map(({value, qualifiers}) => ({
         url: value,
         protocol: qualifiers.P2700 || [],
@@ -35,24 +25,25 @@ const items = dbitems.map(item => {
     }))
   return {
     name: labels.de,
-    wikidata: `http://www.wikidata.org/entity/${id}`,
+    wikidata: id,
     publisher: claims.P98 || [],
     url: claims.P856[0],
-    apis,
+    api,
   }
 })
 
 // get names of referenced QIDs
-ids = items.map(({apis,publisher})=>(
-  [apis.map(api => [api.protocol, api.format]),...publisher])).flat(4).filter(Boolean)
-url = wdk.getEntities({ ids, props: ['labels'] })
+ids = items.map(({api,publisher})=>(
+  [api.map(api => [api.protocol, api.format]),...publisher])).flat(4).filter(Boolean)
 const known = {}
-for (let e of (await wdquery(url))) {
-    known[e.id] = e.labels.de.value
+for (let e of (await wdquery({ ids, props: ['labels'] }))) {
+    known[e.id] = { name: e.labels.de.value, wikidata: e.id }
 }
 
+const rdf = []
+
 for (let item of items) {
-  for (let api of item.apis) {
+  for (let api of item.api) {
     api.format = api.format.map(qid => known[qid] || qid)
     api.protocol = api.protocol.map(qid => known[qid] || qid)
   }
@@ -61,4 +52,12 @@ for (let item of items) {
 
 const json = JSON.stringify(items, null, 2)
 fs.writeFileSync('n4o-databases.json',json)
-console.log(`Angaben zu ${items.length} Datenbanken aktulisiert.`)
+
+for (let item of items) {
+  item["@context"] = context
+  item.type = ['dcat:Catalog','nfdi4core:DataPortal','fabio:Database']
+}
+const nquads = await jsonld.toRDF(items, {format: 'application/n-quads'})
+fs.writeFileSync('n4o-databases.nt',nquads)
+
+console.log(`Angaben zu ${items.length} Datenbanken aktualisiert (${nquads.split("\n").length-1} RDF triple).`)

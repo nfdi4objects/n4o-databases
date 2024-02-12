@@ -1,0 +1,36 @@
+<http://www.wikidata.org/entity/Q124504881> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q896952> .
+<http://www.wikidata.org/entity/Q124504881> <http://schema.org/name> "montan.dok" .
+<http://www.wikidata.org/entity/Q124504881> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
+<http://www.wikidata.org/entity/Q124504881> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.wikidata.org/entity/Q124504881> <http://www.w3.org/2000/01/rdf-schema#type> <ttps://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
+<http://www.wikidata.org/entity/Q124504881> <http://xmlns.com/foaf/0.1/homepage> "https://www.montandok.de/"^^<http://www.w3.org/ns/dcat#anyURI> .
+<http://www.wikidata.org/entity/Q1249973> <http://schema.org/name> "Lightweight Information Describing Objects" .
+<http://www.wikidata.org/entity/Q21040628> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q27863572> .
+<http://www.wikidata.org/entity/Q21040628> <http://schema.org/name> "KENOM" .
+<http://www.wikidata.org/entity/Q21040628> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
+<http://www.wikidata.org/entity/Q21040628> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.wikidata.org/entity/Q21040628> <http://www.w3.org/2000/01/rdf-schema#type> <ttps://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
+<http://www.wikidata.org/entity/Q21040628> <http://www.w3.org/ns/dcat#distribution> _:b0 .
+<http://www.wikidata.org/entity/Q21040628> <http://xmlns.com/foaf/0.1/homepage> "http://www.kenom.de"^^<http://www.w3.org/ns/dcat#anyURI> .
+<http://www.wikidata.org/entity/Q2430433> <http://schema.org/name> "Open Archives Initiative Protocol for Metadata Harvesting" .
+<http://www.wikidata.org/entity/Q27863572> <http://schema.org/name> "Verbundzentrale des GBV" .
+<http://www.wikidata.org/entity/Q323169> <http://schema.org/name> "Münzkabinett" .
+<http://www.wikidata.org/entity/Q323169> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
+<http://www.wikidata.org/entity/Q323169> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.wikidata.org/entity/Q323169> <http://www.w3.org/2000/01/rdf-schema#type> <ttps://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
+<http://www.wikidata.org/entity/Q323169> <http://xmlns.com/foaf/0.1/homepage> "https://www.smb.museum/mk"^^<http://www.w3.org/ns/dcat#anyURI> .
+<http://www.wikidata.org/entity/Q88865971> <http://schema.org/name> "Allard Wijnand Mees" .
+<http://www.wikidata.org/entity/Q896952> <http://schema.org/name> "Deutsches Bergbau-Museum Bochum" .
+<http://www.wikidata.org/entity/Q90412636> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q88865971> .
+<http://www.wikidata.org/entity/Q90412636> <http://schema.org/name> "Samian Research" .
+<http://www.wikidata.org/entity/Q90412636> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
+<http://www.wikidata.org/entity/Q90412636> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.wikidata.org/entity/Q90412636> <http://www.w3.org/2000/01/rdf-schema#type> <ttps://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
+<http://www.wikidata.org/entity/Q90412636> <http://www.w3.org/ns/dcat#distribution> _:b1 .
+<http://www.wikidata.org/entity/Q90412636> <http://www.w3.org/ns/dcat#distribution> _:b2 .
+<http://www.wikidata.org/entity/Q90412636> <http://xmlns.com/foaf/0.1/homepage> "http://rgzm.de/samian"^^<http://www.w3.org/ns/dcat#anyURI> .
+_:b0 <http://purl.org/dc/terms/conformsTo> <http://www.wikidata.org/entity/Q2430433> .
+_:b0 <http://www.w3.org/ns/dcat#accessURL> "https://www.kenom.de/oai/"^^<http://www.w3.org/ns/dcat#anyURI> .
+_:b0 <nfdicore:exportFormat> <http://www.wikidata.org/entity/Q1249973> .
+_:b1 <http://www.w3.org/ns/dcat#accessURL> "https://geo.rgzm.de/geoserver/ows"^^<http://www.w3.org/ns/dcat#anyURI> .
+_:b2 <http://www.w3.org/ns/dcat#accessURL> "http://www.rgzm.de/rest/samianresearch/"^^<http://www.w3.org/ns/dcat#anyURI> .

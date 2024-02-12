@@ -9,8 +9,12 @@
   },
   "author": "",
   "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "csv": "^6.3.6",
+    "jsonld": "^8.3.2",
     "wikibase-sdk": "^9.2.4"
   }
 }
