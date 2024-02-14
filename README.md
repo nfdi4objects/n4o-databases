@@ -39,6 +39,9 @@ In Wikidata sollten folgende Angaben eingetragen werden:
 
 Ein Beispieldatesatz ist <https://www.wikidata.org/wiki/Q21040628> (KENOM).
 
+Zusätzlich sollte die Datenbank bei <a href="https://www.re3data.org/">re3data.org</a> eingetragen werden,
+von wo weitere Informationen übernommen werden können.
+
 ## Zusammenführen der Daten
 
 Zum Zusammenführen der Daten aus [`n4o-databases.csv`] und Wikidata Node benötigt:
