@@ -4,6 +4,20 @@
 <http://www.wikidata.org/entity/Q124504881> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
 <http://www.wikidata.org/entity/Q124504881> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
 <http://www.wikidata.org/entity/Q124504881> <http://xmlns.com/foaf/0.1/homepage> "https://www.montandok.de/"^^<http://www.w3.org/ns/dcat#anyURI> .
+<http://www.wikidata.org/entity/Q124529087> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q695302> .
+<http://www.wikidata.org/entity/Q124529087> <http://schema.org/name> "IANUS Datenportal" .
+<http://www.wikidata.org/entity/Q124529087> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
+<http://www.wikidata.org/entity/Q124529087> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.wikidata.org/entity/Q124529087> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
+<http://www.wikidata.org/entity/Q124529087> <http://www.w3.org/2002/07/owl#sameAs> <https://www.re3data.org/repository/r3d100012361> .
+<http://www.wikidata.org/entity/Q124529087> <http://xmlns.com/foaf/0.1/homepage> "http://datenportal.ianus-fdz.de/"^^<http://www.w3.org/ns/dcat#anyURI> .
+<http://www.wikidata.org/entity/Q124530213> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q695302> .
+<http://www.wikidata.org/entity/Q124530213> <http://schema.org/name> "iDAI.objects" .
+<http://www.wikidata.org/entity/Q124530213> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
+<http://www.wikidata.org/entity/Q124530213> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.wikidata.org/entity/Q124530213> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
+<http://www.wikidata.org/entity/Q124530213> <http://www.w3.org/2002/07/owl#sameAs> <https://www.re3data.org/repository/r3d100011407> .
+<http://www.wikidata.org/entity/Q124530213> <http://xmlns.com/foaf/0.1/homepage> "https://arachne.dainst.org/"^^<http://www.w3.org/ns/dcat#anyURI> .
 <http://www.wikidata.org/entity/Q1249973> <http://schema.org/name> "Lightweight Information Describing Objects" .
 <http://www.wikidata.org/entity/Q21040628> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q27863572> .
 <http://www.wikidata.org/entity/Q21040628> <http://schema.org/name> "KENOM" .
@@ -19,6 +33,7 @@
 <http://www.wikidata.org/entity/Q323169> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
 <http://www.wikidata.org/entity/Q323169> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
 <http://www.wikidata.org/entity/Q323169> <http://xmlns.com/foaf/0.1/homepage> "https://www.smb.museum/mk"^^<http://www.w3.org/ns/dcat#anyURI> .
+<http://www.wikidata.org/entity/Q695302> <http://schema.org/name> "Deutsches Archäologisches Institut" .
 <http://www.wikidata.org/entity/Q88865971> <http://schema.org/name> "Allard Wijnand Mees" .
 <http://www.wikidata.org/entity/Q896952> <http://schema.org/name> "Deutsches Bergbau-Museum Bochum" .
 <http://www.wikidata.org/entity/Q90412636> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q88865971> .

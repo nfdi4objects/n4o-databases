@@ -4,6 +4,7 @@
   "fabio": "http://purl.org/spar/fabio/",
   "foaf": "http://xmlns.com/foaf/0.1/",
   "nfdicore": "https://nfdi.fiz-karlsruhe.de/ontology/",
+  "owl": "http://www.w3.org/2002/07/owl#",
   "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
   "schema": "http://schema.org/",
   "skos": "http://www.w3.org/2004/02/skos/core#",
@@ -11,6 +12,11 @@
 
   "@base": "http://www.wikidata.org/entity/",
   "wikidata": "@id",
+  "re3data": {
+    "@context": { "@base": "https://www.re3data.org/repository/" },
+    "@type": "@id",
+    "@id": "owl:sameAs"
+  },
   "name": "schema:name",
   "type": {
     "@type": "@id",

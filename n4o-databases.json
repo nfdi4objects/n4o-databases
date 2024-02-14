@@ -68,5 +68,31 @@
     ],
     "url": "https://www.montandok.de/",
     "api": []
+  },
+  {
+    "name": "IANUS Datenportal",
+    "wikidata": "Q124529087",
+    "publisher": [
+      {
+        "name": "Deutsches Archäologisches Institut",
+        "wikidata": "Q695302"
+      }
+    ],
+    "url": "http://datenportal.ianus-fdz.de/",
+    "re3data": "r3d100012361",
+    "api": []
+  },
+  {
+    "name": "iDAI.objects",
+    "wikidata": "Q124530213",
+    "publisher": [
+      {
+        "name": "Deutsches Archäologisches Institut",
+        "wikidata": "Q695302"
+      }
+    ],
+    "url": "https://arachne.dainst.org/",
+    "re3data": "r3d100011407",
+    "api": []
   }
 ]
