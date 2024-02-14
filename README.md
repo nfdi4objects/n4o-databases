@@ -2,6 +2,8 @@
 
 Dieses Repository enthält Verweise auf Forschungsdatenbanken von Mitgliedern des NFDI4Objects-Konsortiums, die für NFDI4Objects relevant sind.
 
+Eine HTML-Ansicht der Daten befindet sich unter <https://nfdi4objects.github.io/n4o-databases/>.
+
 ## Dokumentation
 
 Der Datensatz besteht aus der CSV-Datei [`n4o-databases.csv`] mit zwei Spalten:
@@ -15,6 +17,7 @@ Alle weiteren Informationen werden in Wikidata eingetragen und von dort abgerufe
 - `wikidata` QID in Wikidata
 - `url`  Homepage
 - `publisher` Herausgeber mit `name` und `wikidata` QID
+- `re3data` Identifier bei <https://www.re3data.org/>
 - `api` Schnittstellen mit `url`, `protocol` und `format`
 
 Zusätzlich wird die JSON-Datei als JSON-LD mit [diesem Kontext](context.json) nach RDF konvertiert und im NTriples-Format in der Datei [`n4o-databases.nt`] gespeichert. Dabei wird im Wesentlichen das Datenmodell des [NFDI4Culture Knowledge Graph](https://nfdi4culture.de/de/dienste/details/culture-knowledge-graph.html) verwendet mit folgenden Unterschieden:

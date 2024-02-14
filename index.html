@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Forschungsdatenbanken im Rahmen von NFDI4Objects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="normalize.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <style>
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table { border-collapse: collapse; }
+    td, th { border: 1px solid #999; padding: 0.2em; vertical-align: top; }
+    th { text-align: left; }
+    ul.plain {  list-style: none; padding: 0; margin: 0; }
+  </style>
+  <link rel="icon" href="favicon-nfdi4obj-logo-1.png" sizes="32x32" />
+  <link rel="icon" href="favicon-nfdi4obj-logo-1.png" sizes="192x192" />
+</head>
+<body style="padding: 1em"
+      x-data="{ dbs: [] }"
+      x-init="fetch('n4o-databases.json').then(r => r.json()).then(data => (dbs = data))">
+  <h1>Forschungsdatenbanken im Rahmen von NFDI4Objects</h1>
+  <p>
+    Diese Seite enthält eine experimentelle Liste von Datenbanken mit Forschungsdaten,
+    die im Rahmen der Forschungsdateninfrastruktur
+    <a href="https://www.nfdi4objects.net/">NFDI4Objects</a> (N4O)
+    zusammengeführt werden sollen.
+  </p>
+  <table>
+    <thead>
+      <tr>
+        <th>Datenbank</th>
+        <th>Herausgeber</th>
+        <th>Identifier</th>
+        <th>Schnittstellen und Formate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <template x-for="db in dbs">
+        <tr>
+          <td>
+            <a :href="db.url" x-text="db.name"></a>
+          </td>
+          <td>
+            <template x-for="p in db.publisher">
+              <a :href="'http://www.wikidata.org/entity/'+p.wikidata" x-text="p.name"></a>
+            </template>
+          </td>
+          <td>
+            <ul class="plain">
+              <template x-for="id in [db.wikidata ? 'http://www.wikidata.org/entity/'+db.wikidata : null,
+                                      db.re3data ? 'https://www.re3data.org/repository/'+db.re3data : null].filter(Boolean)">
+                <li><a :href="id" x-text="id"></a><li>
+              </template>
+            </ul>
+          </td>
+          <td x-data="{ good: db.api.some(api => api.protocol.length && api.format.length) } ">
+            <template x-if="!db.api.length">
+              <span>🙁</span>
+            </template>
+            <template x-if="db.api.length">
+              <span x-text="good ? '🙂' : '😐'" style="float:left; padding-right: 0.5em;"/>
+            </template>
+            <ul class="plain">
+              <template x-if="db.api.length && !good">
+                <span>vorhanden aber unklar</span>
+              </template>
+              <template x-for="api in db.api">
+                <template x-for="p in api.protocol">
+                  <li><a :href="api.url" x-text="p.name"/></li>
+                </template>
+              </template>
+              <template x-for="api in db.api">
+                <template x-for="format in api.format">
+                  <li><a :href="'http://www.wikidata.org/entity/'+format.wikidata" x-text="format.name"/><li>
+                </template>
+              </template>
+            </ul>
+          </td>
+        </tr>
+      </template>
+    </tbody>
+  </table>
+  <p>
+    Die Angaben auf dieser Seite stammen aus
+    <a href="https://github.com/nfdi4objects/n4o-databases#readme">einem git-Repository</a>
+    und werden dort aus <a href="https://www.wikidata.org/">Wikidata</a> und 
+    <a href="n4o-databases.csv">einer CSV-Datei</a> zusammengeführt.
+    Voraussetzung ist ein Eintrag der Datenbank in Wikidata.
+    Die zusammengeführten Daten stehen
+    <a href="n4o-databases.json">in JSON</a>
+    und 
+    <a href="n4o-databases.nt">in RDF</a>
+    als Open Data zur freien Verfügung
+    (<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0</a>).
+  </p>
+</body>
+</html>
