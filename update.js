@@ -27,7 +27,7 @@ const items = (await wdquery({ ids })).map(item => {
     name: labels.de,
     wikidata: id,
     publisher: claims.P98 || [],
-    url: claims.P856[0],
+    url: claims.P856?.[0],
     re3data: claims.P5874?.[0],
     api,
   }

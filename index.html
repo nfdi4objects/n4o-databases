@@ -45,7 +45,12 @@
       <template x-for="db in dbs">
         <tr>
           <td>
-            <a :href="db.url" x-text="db.name"></a>
+            <template x-if="db.url">
+              <a :href="db.url" x-text="db.name"></a>
+            </template>
+            <template x-if="!db.url">
+              <span x-text="db.name"/>
+            </template>
           </td>
           <td>
             <template x-for="p in db.publisher">

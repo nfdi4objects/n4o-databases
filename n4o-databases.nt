@@ -18,7 +18,20 @@
 <http://www.wikidata.org/entity/Q124530213> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
 <http://www.wikidata.org/entity/Q124530213> <http://www.w3.org/2002/07/owl#sameAs> <https://www.re3data.org/repository/r3d100011407> .
 <http://www.wikidata.org/entity/Q124530213> <http://xmlns.com/foaf/0.1/homepage> "https://arachne.dainst.org/"^^<http://www.w3.org/ns/dcat#anyURI> .
+<http://www.wikidata.org/entity/Q124535956> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q315452> .
+<http://www.wikidata.org/entity/Q124535956> <http://schema.org/name> "Forschungsdatenbank so:fie" .
+<http://www.wikidata.org/entity/Q124535956> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
+<http://www.wikidata.org/entity/Q124535956> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.wikidata.org/entity/Q124535956> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
+<http://www.wikidata.org/entity/Q124535956> <http://xmlns.com/foaf/0.1/homepage> "http://www.klassik-stiftung.de/sofie"^^<http://www.w3.org/ns/dcat#anyURI> .
+<http://www.wikidata.org/entity/Q124536091> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q315452> .
+<http://www.wikidata.org/entity/Q124536091> <http://schema.org/name> "Digitale Sammlungen der Museen der Klassikstiftung Weimar" .
+<http://www.wikidata.org/entity/Q124536091> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
+<http://www.wikidata.org/entity/Q124536091> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.wikidata.org/entity/Q124536091> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
+<http://www.wikidata.org/entity/Q124536091> <http://xmlns.com/foaf/0.1/homepage> "https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home"^^<http://www.w3.org/ns/dcat#anyURI> .
 <http://www.wikidata.org/entity/Q1249973> <http://schema.org/name> "Lightweight Information Describing Objects" .
+<http://www.wikidata.org/entity/Q189620> <http://schema.org/name> "SOAP" .
 <http://www.wikidata.org/entity/Q21040628> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q27863572> .
 <http://www.wikidata.org/entity/Q21040628> <http://schema.org/name> "KENOM" .
 <http://www.wikidata.org/entity/Q21040628> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
@@ -28,6 +41,12 @@
 <http://www.wikidata.org/entity/Q21040628> <http://xmlns.com/foaf/0.1/homepage> "http://www.kenom.de"^^<http://www.w3.org/ns/dcat#anyURI> .
 <http://www.wikidata.org/entity/Q2430433> <http://schema.org/name> "Open Archives Initiative Protocol for Metadata Harvesting" .
 <http://www.wikidata.org/entity/Q27863572> <http://schema.org/name> "Verbundzentrale des GBV" .
+<http://www.wikidata.org/entity/Q289880> <http://schema.org/name> "ADABweb" .
+<http://www.wikidata.org/entity/Q289880> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
+<http://www.wikidata.org/entity/Q289880> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.wikidata.org/entity/Q289880> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
+<http://www.wikidata.org/entity/Q289880> <http://www.w3.org/ns/dcat#distribution> _:b3 .
+<http://www.wikidata.org/entity/Q315452> <http://schema.org/name> "Klassik Stiftung Weimar" .
 <http://www.wikidata.org/entity/Q323169> <http://schema.org/name> "Münzkabinett" .
 <http://www.wikidata.org/entity/Q323169> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
 <http://www.wikidata.org/entity/Q323169> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
@@ -49,3 +68,4 @@ _:b0 <http://www.w3.org/ns/dcat#accessURL> "https://www.kenom.de/oai/"^^<http://
 _:b0 <https://nfdi.fiz-karlsruhe.de/ontology/exportFormat> <http://www.wikidata.org/entity/Q1249973> .
 _:b1 <http://www.w3.org/ns/dcat#accessURL> "https://geo.rgzm.de/geoserver/ows"^^<http://www.w3.org/ns/dcat#anyURI> .
 _:b2 <http://www.w3.org/ns/dcat#accessURL> "http://www.rgzm.de/rest/samianresearch/"^^<http://www.w3.org/ns/dcat#anyURI> .
+_:b3 <http://purl.org/dc/terms/conformsTo> <http://www.wikidata.org/entity/Q189620> .

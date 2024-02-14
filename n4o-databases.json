@@ -94,5 +94,45 @@
     "url": "https://arachne.dainst.org/",
     "re3data": "r3d100011407",
     "api": []
+  },
+  {
+    "name": "ADABweb",
+    "wikidata": "Q289880",
+    "publisher": [],
+    "api": [
+      {
+        "protocol": [
+          {
+            "name": "SOAP",
+            "wikidata": "Q189620"
+          }
+        ],
+        "format": []
+      }
+    ]
+  },
+  {
+    "name": "Forschungsdatenbank so:fie",
+    "wikidata": "Q124535956",
+    "publisher": [
+      {
+        "name": "Klassik Stiftung Weimar",
+        "wikidata": "Q315452"
+      }
+    ],
+    "url": "http://www.klassik-stiftung.de/sofie",
+    "api": []
+  },
+  {
+    "name": "Digitale Sammlungen der Museen der Klassikstiftung Weimar",
+    "wikidata": "Q124536091",
+    "publisher": [
+      {
+        "name": "Klassik Stiftung Weimar",
+        "wikidata": "Q315452"
+      }
+    ],
+    "url": "https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home",
+    "api": []
   }
 ]
