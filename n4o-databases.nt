@@ -30,6 +30,18 @@
 <http://www.wikidata.org/entity/Q124536091> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
 <http://www.wikidata.org/entity/Q124536091> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
 <http://www.wikidata.org/entity/Q124536091> <http://xmlns.com/foaf/0.1/homepage> "https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home"^^<http://www.w3.org/ns/dcat#anyURI> .
+<http://www.wikidata.org/entity/Q124694998> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q478695> .
+<http://www.wikidata.org/entity/Q124694998> <http://schema.org/name> "Objektkatalog des Germanischen Nationalmuseum" .
+<http://www.wikidata.org/entity/Q124694998> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
+<http://www.wikidata.org/entity/Q124694998> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.wikidata.org/entity/Q124694998> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
+<http://www.wikidata.org/entity/Q124694998> <http://xmlns.com/foaf/0.1/homepage> "https://objektkatalog.gnm.de/"^^<http://www.w3.org/ns/dcat#anyURI> .
+<http://www.wikidata.org/entity/Q124695065> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q40025> .
+<http://www.wikidata.org/entity/Q124695065> <http://schema.org/name> "Objekte im Netz" .
+<http://www.wikidata.org/entity/Q124695065> <http://www.w3.org/2000/01/rdf-schema#type> <http://purl.org/spar/fabio/Database> .
+<http://www.wikidata.org/entity/Q124695065> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
+<http://www.wikidata.org/entity/Q124695065> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
+<http://www.wikidata.org/entity/Q124695065> <http://xmlns.com/foaf/0.1/homepage> "https://objekte-im-netz.fau.de/"^^<http://www.w3.org/ns/dcat#anyURI> .
 <http://www.wikidata.org/entity/Q1249973> <http://schema.org/name> "Lightweight Information Describing Objects" .
 <http://www.wikidata.org/entity/Q189620> <http://schema.org/name> "SOAP" .
 <http://www.wikidata.org/entity/Q21040628> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q27863572> .
@@ -52,6 +64,8 @@
 <http://www.wikidata.org/entity/Q323169> <http://www.w3.org/2000/01/rdf-schema#type> <http://www.w3.org/ns/dcat#Catalog> .
 <http://www.wikidata.org/entity/Q323169> <http://www.w3.org/2000/01/rdf-schema#type> <https://nfdi.fiz-karlsruhe.de/ontology/DataPortal> .
 <http://www.wikidata.org/entity/Q323169> <http://xmlns.com/foaf/0.1/homepage> "https://www.smb.museum/mk"^^<http://www.w3.org/ns/dcat#anyURI> .
+<http://www.wikidata.org/entity/Q40025> <http://schema.org/name> "Friedrich-Alexander-Universität Erlangen-Nürnberg" .
+<http://www.wikidata.org/entity/Q478695> <http://schema.org/name> "Germanisches Nationalmuseum" .
 <http://www.wikidata.org/entity/Q695302> <http://schema.org/name> "Deutsches Archäologisches Institut" .
 <http://www.wikidata.org/entity/Q88865971> <http://schema.org/name> "Allard Wijnand Mees" .
 <http://www.wikidata.org/entity/Q896952> <http://schema.org/name> "Deutsches Bergbau-Museum Bochum" .

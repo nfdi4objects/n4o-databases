@@ -134,5 +134,29 @@
     ],
     "url": "https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home",
     "api": []
+  },
+  {
+    "name": "Objektkatalog des Germanischen Nationalmuseum",
+    "wikidata": "Q124694998",
+    "publisher": [
+      {
+        "name": "Germanisches Nationalmuseum",
+        "wikidata": "Q478695"
+      }
+    ],
+    "url": "https://objektkatalog.gnm.de/",
+    "api": []
+  },
+  {
+    "name": "Objekte im Netz",
+    "wikidata": "Q124695065",
+    "publisher": [
+      {
+        "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+        "wikidata": "Q40025"
+      }
+    ],
+    "url": "https://objekte-im-netz.fau.de/",
+    "api": []
   }
 ]
