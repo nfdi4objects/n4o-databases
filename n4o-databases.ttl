@@ -1,0 +1,102 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nfdicore: <https://nfdi.fiz-karlsruhe.de/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+wd:Q124504881 dcterms:publisher wd:Q896952 ;
+	schema:name "montan.dok" ;
+	rdfs:type fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+	foaf:homepage "https://www.montandok.de/"^^dcat:anyURI .
+
+wd:Q124529087 dcterms:publisher wd:Q695302 ;
+	schema:name "IANUS Datenportal" ;
+	rdfs:type fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+	owl:sameAs <https://www.re3data.org/repository/r3d100012361> ;
+	foaf:homepage "http://datenportal.ianus-fdz.de/"^^dcat:anyURI .
+
+wd:Q124530213 dcterms:publisher wd:Q695302 ;
+	schema:name "iDAI.objects" ;
+	rdfs:type fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+	owl:sameAs <https://www.re3data.org/repository/r3d100011407> ;
+	foaf:homepage "https://arachne.dainst.org/"^^dcat:anyURI .
+
+wd:Q124535956 dcterms:publisher wd:Q315452 ;
+	schema:name "Forschungsdatenbank so:fie" ;
+	rdfs:type fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+	foaf:homepage "http://www.klassik-stiftung.de/sofie"^^dcat:anyURI .
+
+wd:Q124536091 dcterms:publisher wd:Q315452 ;
+	schema:name "Digitale Sammlungen der Museen der Klassikstiftung Weimar" ;
+	rdfs:type fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+	foaf:homepage "https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home"^^dcat:anyURI .
+
+wd:Q124694998 dcterms:publisher wd:Q478695 ;
+	schema:name "Objektkatalog des Germanischen Nationalmuseum" ;
+	rdfs:type fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+	foaf:homepage "https://objektkatalog.gnm.de/"^^dcat:anyURI .
+
+wd:Q124695065 dcterms:publisher wd:Q40025 ;
+	schema:name "Objekte im Netz" ;
+	rdfs:type fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+	foaf:homepage "https://objekte-im-netz.fau.de/"^^dcat:anyURI .
+
+wd:Q1249973 schema:name "Lightweight Information Describing Objects" .
+
+wd:Q189620 schema:name "SOAP" .
+
+wd:Q21040628 dcterms:publisher wd:Q27863572 ;
+	schema:name "KENOM" ;
+	rdfs:type fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+	dcat:distribution [
+		dcterms:conformsTo wd:Q2430433 ;
+		dcat:accessURL "https://www.kenom.de/oai/"^^dcat:anyURI ;
+		nfdicore:exportFormat wd:Q1249973 ;
+	] ;
+	foaf:homepage "http://www.kenom.de"^^dcat:anyURI .
+
+wd:Q2430433 schema:name "Open Archives Initiative Protocol for Metadata Harvesting" .
+
+wd:Q27863572 schema:name "Verbundzentrale des GBV" .
+
+wd:Q289880 schema:name "ADABweb" ;
+	rdfs:type fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+	dcat:distribution [
+		dcterms:conformsTo wd:Q189620 ;
+	] .
+
+wd:Q315452 schema:name "Klassik Stiftung Weimar" .
+
+wd:Q323169 dcterms:publisher wd:Q685171 ;
+	schema:name "Münzkabinett" ;
+	rdfs:type fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+	foaf:homepage "https://www.smb.museum/mk"^^dcat:anyURI .
+
+wd:Q40025 schema:name "Friedrich-Alexander-Universität Erlangen-Nürnberg" .
+
+wd:Q478695 schema:name "Germanisches Nationalmuseum" .
+
+wd:Q685171 schema:name "Stiftung Preußischer Kulturbesitz" .
+
+wd:Q695302 schema:name "Deutsches Archäologisches Institut" .
+
+wd:Q88865971 schema:name "Allard Wijnand Mees" .
+
+wd:Q896952 schema:name "Deutsches Bergbau-Museum Bochum" .
+
+wd:Q90412636 dcterms:publisher wd:Q88865971 ;
+	schema:name "Samian Research" ;
+	rdfs:type fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+	dcat:distribution [
+		dcat:accessURL "https://geo.rgzm.de/geoserver/ows"^^dcat:anyURI ;
+	], [
+		dcat:accessURL "http://www.rgzm.de/rest/samianresearch/"^^dcat:anyURI ;
+	] ;
+	foaf:homepage "http://rgzm.de/samian"^^dcat:anyURI .
+

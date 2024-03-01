@@ -13,8 +13,13 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
+    "@rdfjs/parser-n3": "^2.0.2",
     "csv": "^6.3.6",
+    "get-stream": "^8.0.1",
     "jsonld": "^8.3.2",
     "wikibase-sdk": "^9.2.4"
+  },
+  "devDependencies": {
+    "@rdfjs-elements/formats-pretty": "^0.6.7"
   }
 }

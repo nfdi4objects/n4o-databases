@@ -53,7 +53,12 @@
   {
     "name": "Münzkabinett",
     "wikidata": "Q323169",
-    "publisher": [],
+    "publisher": [
+      {
+        "name": "Stiftung Preußischer Kulturbesitz",
+        "wikidata": "Q685171"
+      }
+    ],
     "url": "https://www.smb.museum/mk",
     "api": []
   },
