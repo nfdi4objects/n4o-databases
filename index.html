@@ -5,26 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="n4o.css">
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
-  <style>
-    body {
-      margin: 10%;
-      font-family: "Lucida Grande",Verdana,Lucida,Helvetica,Arial,sans-serif;
-    }
-    h1 { color: rgb(0, 51, 153); }
-    a { text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    table { border-collapse: collapse; }
-    td, th { border: 1px solid #999; padding: 0.2em; vertical-align: top; }
-    th { text-align: left; }
-    ul.plain {  list-style: none; padding: 0; margin: 0; }
-  </style>
-  <link rel="icon" href="favicon-nfdi4obj-logo-1.png" sizes="32x32" />
+   <link rel="icon" href="favicon-nfdi4obj-logo-1.png" sizes="32x32" />
   <link rel="icon" href="favicon-nfdi4obj-logo-1.png" sizes="192x192" />
 </head>
 <body style="padding: 1em"
       x-data="{ dbs: [] }"
       x-init="fetch('n4o-databases.json').then(r => r.json()).then(data => (dbs = data))">
+  <p>
+    <small><a href="https://nfdi4objects.github.io/">NFDI4Objects@GitHub</a></small>
+  </p>
   <h1>Forschungsdatenbanken im Rahmen von NFDI4Objects</h1>
   <p>
     Diese Seite enthält eine experimentelle Liste von Datenbanken mit Forschungsdaten,
