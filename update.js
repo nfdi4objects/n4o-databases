@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import fs from 'fs'
+import { pgformat } from 'pgraphs'
 import jsonld from 'jsonld'
 import wdk from 'wikibase-sdk/wikidata.org'
 import { parse } from 'csv-parse/sync'
@@ -52,9 +53,47 @@ for (let item of items) {
   item.publisher = item.publisher.map(qid => known[qid] || qid)
 }
 
+// Serialize JSON
 const json = JSON.stringify(items, null, 2)
 fs.writeFileSync('n4o-databases.json',json)
 
+// Serialize PG-JSON (TODO: simplify)
+const nodes = [], edges = []
+for (let item of items) {
+  const properties = {
+    uri: ["http://www.wikidata.org/entity/"+item.wikidata],
+  }
+  if (item.re3data) { properties.uri.push("https://www.re3data.org/repository/"+item.re3data) }
+  if (item.url) { properties.url = [item.url] }
+  if (item.label) { properties.label = [item.label] }
+  nodes.push({
+    id: item.wikidata,
+    labels: ['Database'],
+    properties
+  })
+
+  for (let p of item.publisher) {
+    edges.push({
+      from: item.wikidata,
+      to: p.wikidata,
+      labels: ["publisher"]
+    })
+    const properties = {}
+    if (p.name) { properties.label = [p.name] }
+    nodes.push({
+      id: p.wikidata,
+      labels: ["Agent"],
+      properties
+    })
+  }
+  // TODO: include API
+}
+const graph = { nodes, edges }
+fs.writeFileSync('n4o-databases-pg.json', JSON.stringify(graph, null, 2))
+fs.writeFileSync('n4o-databases.pg', pgformat.pg.serialize(graph))
+
+
+// serializes RDF/NTriples
 for (let item of items) {
   item["@context"] = context
   item.type = ['dcat:Catalog','nfdicore:DataPortal','fabio:Database']
@@ -65,7 +104,7 @@ console.log(`Angaben zu ${items.length} Datenbanken aktualisiert (${nquads.split
 
 fs.writeFileSync('n4o-databases.nt',nquads)
 
-// serialize turtle
+// serialize RDF/Turtle
 import ParserN3 from '@rdfjs/parser-n3'
 import { Readable } from 'readable-stream'
 import getStream from 'get-stream'
@@ -88,3 +127,4 @@ const sink = new TurtleSerializer({ prefixes })
 const parserN3 = new ParserN3()
 const ttl = await getStream(sink.import(parserN3.import(Readable.from(nquads))))
 fs.writeFileSync('n4o-databases.ttl',ttl)
+

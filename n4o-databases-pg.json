@@ -1,0 +1,339 @@
+{
+  "nodes": [
+    {
+      "id": "Q21040628",
+      "labels": [
+        "Database"
+      ],
+      "properties": {
+        "uri": [
+          "http://www.wikidata.org/entity/Q21040628"
+        ],
+        "url": [
+          "http://www.kenom.de"
+        ]
+      }
+    },
+    {
+      "id": "Q27863572",
+      "labels": [
+        "Agent"
+      ],
+      "properties": {
+        "label": [
+          "Verbundzentrale des GBV"
+        ]
+      }
+    },
+    {
+      "id": "Q90412636",
+      "labels": [
+        "Database"
+      ],
+      "properties": {
+        "uri": [
+          "http://www.wikidata.org/entity/Q90412636"
+        ],
+        "url": [
+          "http://rgzm.de/samian"
+        ]
+      }
+    },
+    {
+      "id": "Q88865971",
+      "labels": [
+        "Agent"
+      ],
+      "properties": {
+        "label": [
+          "Allard Wijnand Mees"
+        ]
+      }
+    },
+    {
+      "id": "Q323169",
+      "labels": [
+        "Database"
+      ],
+      "properties": {
+        "uri": [
+          "http://www.wikidata.org/entity/Q323169"
+        ],
+        "url": [
+          "https://www.smb.museum/mk"
+        ]
+      }
+    },
+    {
+      "id": "Q685171",
+      "labels": [
+        "Agent"
+      ],
+      "properties": {
+        "label": [
+          "Stiftung Preußischer Kulturbesitz"
+        ]
+      }
+    },
+    {
+      "id": "Q124504881",
+      "labels": [
+        "Database"
+      ],
+      "properties": {
+        "uri": [
+          "http://www.wikidata.org/entity/Q124504881"
+        ],
+        "url": [
+          "https://www.montandok.de/"
+        ]
+      }
+    },
+    {
+      "id": "Q896952",
+      "labels": [
+        "Agent"
+      ],
+      "properties": {
+        "label": [
+          "Deutsches Bergbau-Museum Bochum"
+        ]
+      }
+    },
+    {
+      "id": "Q124529087",
+      "labels": [
+        "Database"
+      ],
+      "properties": {
+        "uri": [
+          "http://www.wikidata.org/entity/Q124529087",
+          "https://www.re3data.org/repository/r3d100012361"
+        ],
+        "url": [
+          "http://datenportal.ianus-fdz.de/"
+        ]
+      }
+    },
+    {
+      "id": "Q695302",
+      "labels": [
+        "Agent"
+      ],
+      "properties": {
+        "label": [
+          "Deutsches Archäologisches Institut"
+        ]
+      }
+    },
+    {
+      "id": "Q124530213",
+      "labels": [
+        "Database"
+      ],
+      "properties": {
+        "uri": [
+          "http://www.wikidata.org/entity/Q124530213",
+          "https://www.re3data.org/repository/r3d100011407"
+        ],
+        "url": [
+          "https://arachne.dainst.org/"
+        ]
+      }
+    },
+    {
+      "id": "Q695302",
+      "labels": [
+        "Agent"
+      ],
+      "properties": {
+        "label": [
+          "Deutsches Archäologisches Institut"
+        ]
+      }
+    },
+    {
+      "id": "Q289880",
+      "labels": [
+        "Database"
+      ],
+      "properties": {
+        "uri": [
+          "http://www.wikidata.org/entity/Q289880"
+        ]
+      }
+    },
+    {
+      "id": "Q124535956",
+      "labels": [
+        "Database"
+      ],
+      "properties": {
+        "uri": [
+          "http://www.wikidata.org/entity/Q124535956"
+        ],
+        "url": [
+          "http://www.klassik-stiftung.de/sofie"
+        ]
+      }
+    },
+    {
+      "id": "Q315452",
+      "labels": [
+        "Agent"
+      ],
+      "properties": {
+        "label": [
+          "Klassik Stiftung Weimar"
+        ]
+      }
+    },
+    {
+      "id": "Q124536091",
+      "labels": [
+        "Database"
+      ],
+      "properties": {
+        "uri": [
+          "http://www.wikidata.org/entity/Q124536091"
+        ],
+        "url": [
+          "https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home"
+        ]
+      }
+    },
+    {
+      "id": "Q315452",
+      "labels": [
+        "Agent"
+      ],
+      "properties": {
+        "label": [
+          "Klassik Stiftung Weimar"
+        ]
+      }
+    },
+    {
+      "id": "Q124694998",
+      "labels": [
+        "Database"
+      ],
+      "properties": {
+        "uri": [
+          "http://www.wikidata.org/entity/Q124694998"
+        ],
+        "url": [
+          "https://objektkatalog.gnm.de/"
+        ]
+      }
+    },
+    {
+      "id": "Q478695",
+      "labels": [
+        "Agent"
+      ],
+      "properties": {
+        "label": [
+          "Germanisches Nationalmuseum"
+        ]
+      }
+    },
+    {
+      "id": "Q124695065",
+      "labels": [
+        "Database"
+      ],
+      "properties": {
+        "uri": [
+          "http://www.wikidata.org/entity/Q124695065"
+        ],
+        "url": [
+          "https://objekte-im-netz.fau.de/"
+        ]
+      }
+    },
+    {
+      "id": "Q40025",
+      "labels": [
+        "Agent"
+      ],
+      "properties": {
+        "label": [
+          "Friedrich-Alexander-Universität Erlangen-Nürnberg"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "Q21040628",
+      "to": "Q27863572",
+      "labels": [
+        "publisher"
+      ]
+    },
+    {
+      "from": "Q90412636",
+      "to": "Q88865971",
+      "labels": [
+        "publisher"
+      ]
+    },
+    {
+      "from": "Q323169",
+      "to": "Q685171",
+      "labels": [
+        "publisher"
+      ]
+    },
+    {
+      "from": "Q124504881",
+      "to": "Q896952",
+      "labels": [
+        "publisher"
+      ]
+    },
+    {
+      "from": "Q124529087",
+      "to": "Q695302",
+      "labels": [
+        "publisher"
+      ]
+    },
+    {
+      "from": "Q124530213",
+      "to": "Q695302",
+      "labels": [
+        "publisher"
+      ]
+    },
+    {
+      "from": "Q124535956",
+      "to": "Q315452",
+      "labels": [
+        "publisher"
+      ]
+    },
+    {
+      "from": "Q124536091",
+      "to": "Q315452",
+      "labels": [
+        "publisher"
+      ]
+    },
+    {
+      "from": "Q124694998",
+      "to": "Q478695",
+      "labels": [
+        "publisher"
+      ]
+    },
+    {
+      "from": "Q124695065",
+      "to": "Q40025",
+      "labels": [
+        "publisher"
+      ]
+    }
+  ]
+}

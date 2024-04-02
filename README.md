@@ -20,10 +20,18 @@ Alle weiteren Informationen werden in Wikidata eingetragen und von dort abgerufe
 - `re3data` Identifier bei <https://www.re3data.org/>
 - `api` Schnittstellen mit `url`, `protocol` und `format`
 
-Zusätzlich wird die JSON-Datei als JSON-LD mit [diesem Kontext](context.json) nach RDF konvertiert und im NTriples-Format in der Datei [`n4o-databases.nt`] gespeichert. Dabei wird im Wesentlichen das Datenmodell des [NFDI4Culture Knowledge Graph](https://nfdi4culture.de/de/dienste/details/culture-knowledge-graph.html) verwendet mit folgenden Unterschieden:
+Zusätzlich wird die JSON-Datei als JSON-LD mit [diesem Kontext](context.json)
+nach RDF konvertiert und im NTriples-Format in der Datei [`n4o-databases.nt`]
+gespeichert und im Turtle-Format in der Datei [`n4o-databases.ttl`].
+Dabei wird im Wesentlichen das Datenmodell des [NFDI4Culture
+Knowledge
+Graph](https://nfdi4culture.de/de/dienste/details/culture-knowledge-graph.html)
+verwendet mit folgenden Unterschieden:
 
 - Zur Angabe einer Homepage wird `foaf:url` verwendet, da diese RDF Property bereits etabliert ist
 - Es werden keinen eigenen URIs für Herausgeber, APIs und Dateiformate gebildet sondern Wikidata-URIs verwendet
+
+Darüber hinaus werden die Daten als Property Graph in den Dateien [`n4o-databases-pg.json`] und [`n4o-databases.pg`] als PG-JSON bzw. PG format gespeichert.
 
 ## Erweiterung und Änderung der Daten
 
@@ -44,7 +52,7 @@ von wo weitere Informationen übernommen werden können.
 
 ## Zusammenführen der Daten
 
-Zum Zusammenführen der Daten aus [`n4o-databases.csv`] und Wikidata Node benötigt:
+Zum Zusammenführen der Daten aus [`n4o-databases.csv`] und Wikidata wird Node benötigt:
 
     git clone https://github.com/nfdi4objects/n4o-databases.git
     npn install
@@ -57,3 +65,6 @@ Alle Daten stehen als Public Domain (CC0) frei zur Verfügung.
 [`n4o-databases.csv`]: n4o-databases.csv
 [`n4o-databases.json`]: n4o-databases.json
 [`n4o-databases.nt`]: n4o-databases.nt
+[`n4o-databases.ttl`]: n4o-databases.ttl
+[`n4o-databases-pg.json`]: n4o-databases-pg.json
+[`n4o-databases.pg`]: n4o-databases.pg

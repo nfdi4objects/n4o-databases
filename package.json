@@ -17,6 +17,7 @@
     "csv": "^6.3.6",
     "get-stream": "^8.0.1",
     "jsonld": "^8.3.2",
+    "pgraphs": "^0.5.1",
     "wikibase-sdk": "^9.2.4"
   },
   "devDependencies": {
