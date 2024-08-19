@@ -34,7 +34,7 @@ verwendet mit folgenden Unterschieden:
 - Zur Angabe einer Homepage wird `foaf:url` verwendet, da diese RDF Property bereits etabliert ist
 - Es werden keinen eigenen URIs für Herausgeber, APIs und Dateiformate gebildet sondern Wikidata-URIs verwendet
 
-Darüber hinaus werden die Daten als Property Graph in den Dateien [`n4o-databases-pg.json`] und [`n4o-databases.pg`] als PG-JSON bzw. PG format gespeichert.
+Darüber hinaus werden die Daten als Property Graph in den Dateien [`n4o-sources-pg.json`] und [`n4o-sources.pg`] als PG-JSON bzw. PG format gespeichert.
 
 ### Collections
 
@@ -82,5 +82,5 @@ Alle Daten stehen als Public Domain (CC0) frei zur Verfügung.
 [`n4o-databases.json`]: n4o-databases.json
 [`n4o-databases.nt`]: n4o-databases.nt
 [`n4o-databases.ttl`]: n4o-databases.ttl
-[`n4o-databases-pg.json`]: n4o-databases-pg.json
-[`n4o-databases.pg`]: n4o-databases.pg
+[`n4o-sources-pg.json`]: n4o-sources-pg.json
+[`n4o-sources.pg`]: n4o-sources.pg

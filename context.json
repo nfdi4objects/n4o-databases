@@ -9,9 +9,13 @@
   "schema": "http://schema.org/",
   "skos": "http://www.w3.org/2004/02/skos/core#",
   "xsd": "http://www.w3.org/2001/XMLSchema#",
-
-  "@base": "http://www.wikidata.org/entity/",
+  "id": "@id",
   "wikidata": "@id",
+  "db": {
+    "@context": { "@base": "http://www.wikidata.org/entity/" },
+    "@type": "@id",
+    "@reverse": "dcat:dataset"
+  },
   "re3data": {
     "@context": { "@base": "https://www.re3data.org/repository/" },
     "@type": "@id",
@@ -20,11 +24,11 @@
   "name": "schema:name",
   "type": {
     "@type": "@id",
-    "@id": "rdfs:type"
+    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
   },
   "url": {
     "@id": "foaf:homepage",
-    "@type": "dcat:anyURI"
+    "@type": "@id"
   },
   "publisher": {
     "@id": "dcterms:publisher"

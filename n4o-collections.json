@@ -1,0 +1,107 @@
+[
+  {
+    "id": "http://data.nfdi4objects.net/collection/1",
+    "name": "Ur- und Frühgeschichtliche Sammlung der FAU",
+    "url": "https://objekte-im-netz.fau.de/projekt/node/22",
+    "db": "Q124695065",
+    "type": [
+      "fabio:Database"
+    ]
+  },
+  {
+    "id": "http://data.nfdi4objects.net/collection/2",
+    "name": "Paläontologischen Sammlung der FAU|Geowissenschaftliche Sammlung der FAU",
+    "url": "https://objekte-im-netz.fau.de/projekt/node/20",
+    "db": "Q124695065",
+    "type": [
+      "fabio:Database"
+    ]
+  },
+  {
+    "id": "http://data.nfdi4objects.net/collection/3",
+    "name": "Graphische Sammlung der FAU",
+    "url": "https://objekte-im-netz.fau.de/projekt/node/17",
+    "db": "Q124695065",
+    "type": [
+      "fabio:Database"
+    ]
+  },
+  {
+    "id": "http://data.nfdi4objects.net/collection/4",
+    "name": "Musikinstrumentensammlung der FAU",
+    "url": "https://objekte-im-netz.fau.de/projekt/node/19",
+    "db": "Q124695065",
+    "type": [
+      "fabio:Database"
+    ]
+  },
+  {
+    "id": "http://data.nfdi4objects.net/collection/5",
+    "name": "Medizinische Sammlung der FAU",
+    "url": "https://objekte-im-netz.fau.de/projekt/node/18",
+    "db": "Q124695065",
+    "type": [
+      "fabio:Database"
+    ]
+  },
+  {
+    "id": "http://data.nfdi4objects.net/collection/6",
+    "name": "Schulgeschichtliche Sammlung der FAU und Schulmuseum",
+    "url": "https://objekte-im-netz.fau.de/projekt/node/21",
+    "db": "Q124695065",
+    "type": [
+      "fabio:Database"
+    ]
+  },
+  {
+    "id": "http://data.nfdi4objects.net/collection/7",
+    "name": "KENOM Virtuelles Münzportal",
+    "url": "http://www.kenom.de/",
+    "db": "Q21040628",
+    "type": [
+      "fabio:Database"
+    ]
+  },
+  {
+    "id": "http://data.nfdi4objects.net/collection/8",
+    "name": "Samian Research Database",
+    "url": "https://rgzm.github.io/samian-lod/",
+    "type": [
+      "fabio:Database"
+    ]
+  },
+  {
+    "id": "http://data.nfdi4objects.net/collection/9",
+    "name": "Linked Open Ogham",
+    "url": "https://doi.org/10.5281/zenodo.4765603",
+    "type": [
+      "fabio:Database"
+    ]
+  },
+  {
+    "id": "http://data.nfdi4objects.net/collection/10",
+    "name": "African Red Slip Ware",
+    "url": "https://doi.org/10.5281/zenodo.5642751",
+    "type": [
+      "fabio:Database"
+    ]
+  },
+  {
+    "id": "http://data.nfdi4objects.net/collection/11",
+    "name": "Digitale Sammlungen der Museen der Klassikstiftung Weimar",
+    "url": "https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home",
+    "db": "Q124536091",
+    "type": [
+      "fabio:Database"
+    ]
+  },
+  {
+    "id": "http://data.nfdi4objects.net/collection/12",
+    "name": "Graphische Sammlung des Germanisches National Museum",
+    "url": "https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung",
+    "db": "Q478695",
+    "type": [
+      "fabio:Database"
+    ]
+  }
+]

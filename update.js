@@ -1,7 +1,5 @@
 import fs from 'fs'
 import { pgformat } from 'pgraphs'
-import jsonld from 'jsonld'
-import { TurtleSerializer } from '@rdfjs-elements/formats-pretty'
 import wdk from 'wikibase-sdk/wikidata.org'
 import { parse } from 'csv-parse/sync'
 
@@ -10,7 +8,6 @@ const wdquery = async query =>
 
 const csv = fs.readFileSync('n4o-databases.csv', 'utf-8')
 const dbs = parse(csv, { columns: true, trim: true })
-const context = JSON.parse(fs.readFileSync('context.json'))
 
 // get dabases with known Wikidata identifier   
 var ids = dbs.map(db => db.wikidata).filter(Boolean)
@@ -49,12 +46,13 @@ for (let item of items) {
     api.protocol = api.protocol.map(qid => known[qid] || qid)
   }
   item.publisher = item.publisher.map(qid => known[qid] || qid)
-  item.type = ['dcat:Catalog','nfdicore:DataPortal','fabio:Database']
+    item.type = ['dcat:Catalog','nfdicore:DataPortal'] //,'fabio:DataRepository'?
 }
 
 // Serialize JSON
 const json = JSON.stringify(items, null, 2)
 fs.writeFileSync('n4o-databases.json',json)
+
 
 // Serialize PG-JSON (TODO: simplify)
 const nodes = [], edges = []
@@ -87,8 +85,5 @@ for (let item of items) {
   }
   // TODO: include API
 }
-const graph = { nodes, edges }
-fs.writeFileSync('n4o-databases-pg.json', JSON.stringify(graph, null, 2))
-fs.writeFileSync('n4o-databases.pg', pgformat.pg.serialize(graph))
 
-
+fs.writeFileSync('n4o-databases.pg', pgformat.pg.serialize({ nodes, edges }))
