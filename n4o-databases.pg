@@ -1,31 +1,31 @@
-Q21040628 :Database uri:"http://www.wikidata.org/entity/Q21040628" url:"http://www.kenom.de"
+http://www.wikidata.org/entity/Q21040628 :Database uri:"http://www.wikidata.org/entity/http://www.wikidata.org/entity/Q21040628" url:"http://www.kenom.de"
 Q27863572 :Agent label:"Verbundzentrale des GBV"
-Q90412636 :Database uri:"http://www.wikidata.org/entity/Q90412636" url:"http://rgzm.de/samian"
+http://www.wikidata.org/entity/Q90412636 :Database uri:"http://www.wikidata.org/entity/http://www.wikidata.org/entity/Q90412636" url:"http://rgzm.de/samian"
 Q88865971 :Agent label:"Allard Wijnand Mees"
-Q323169 :Database uri:"http://www.wikidata.org/entity/Q323169" url:"https://www.smb.museum/mk"
+http://www.wikidata.org/entity/Q323169 :Database uri:"http://www.wikidata.org/entity/http://www.wikidata.org/entity/Q323169" url:"https://www.smb.museum/mk"
 Q685171 :Agent label:"Stiftung Preußischer Kulturbesitz"
-Q124504881 :Database uri:"http://www.wikidata.org/entity/Q124504881" url:"https://www.montandok.de/"
+http://www.wikidata.org/entity/Q124504881 :Database uri:"http://www.wikidata.org/entity/http://www.wikidata.org/entity/Q124504881" url:"https://www.montandok.de/"
 Q896952 :Agent label:"Deutsches Bergbau-Museum Bochum"
-Q124529087 :Database uri:"http://www.wikidata.org/entity/Q124529087" uri:"https://www.re3data.org/repository/r3d100012361" url:"http://datenportal.ianus-fdz.de/"
+http://www.wikidata.org/entity/Q124529087 :Database uri:"http://www.wikidata.org/entity/http://www.wikidata.org/entity/Q124529087" uri:"https://www.re3data.org/repository/r3d100012361" url:"http://datenportal.ianus-fdz.de/"
 Q695302 :Agent label:"Deutsches Archäologisches Institut"
-Q124530213 :Database uri:"http://www.wikidata.org/entity/Q124530213" uri:"https://www.re3data.org/repository/r3d100011407" url:"https://arachne.dainst.org/"
+http://www.wikidata.org/entity/Q124530213 :Database uri:"http://www.wikidata.org/entity/http://www.wikidata.org/entity/Q124530213" uri:"https://www.re3data.org/repository/r3d100011407" url:"https://arachne.dainst.org/"
 Q695302 :Agent label:"Deutsches Archäologisches Institut"
-Q289880 :Database uri:"http://www.wikidata.org/entity/Q289880"
-Q124535956 :Database uri:"http://www.wikidata.org/entity/Q124535956" url:"http://www.klassik-stiftung.de/sofie"
+http://www.wikidata.org/entity/Q289880 :Database uri:"http://www.wikidata.org/entity/http://www.wikidata.org/entity/Q289880"
+http://www.wikidata.org/entity/Q124535956 :Database uri:"http://www.wikidata.org/entity/http://www.wikidata.org/entity/Q124535956" url:"http://www.klassik-stiftung.de/sofie"
 Q315452 :Agent label:"Klassik Stiftung Weimar"
-Q124536091 :Database uri:"http://www.wikidata.org/entity/Q124536091" url:"https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home"
+http://www.wikidata.org/entity/Q124536091 :Database uri:"http://www.wikidata.org/entity/http://www.wikidata.org/entity/Q124536091" url:"https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home"
 Q315452 :Agent label:"Klassik Stiftung Weimar"
-Q124694998 :Database uri:"http://www.wikidata.org/entity/Q124694998" url:"https://objektkatalog.gnm.de/"
+http://www.wikidata.org/entity/Q124694998 :Database uri:"http://www.wikidata.org/entity/http://www.wikidata.org/entity/Q124694998" url:"https://objektkatalog.gnm.de/"
 Q478695 :Agent label:"Germanisches Nationalmuseum"
-Q124695065 :Database uri:"http://www.wikidata.org/entity/Q124695065" url:"https://objekte-im-netz.fau.de/"
+http://www.wikidata.org/entity/Q124695065 :Database uri:"http://www.wikidata.org/entity/http://www.wikidata.org/entity/Q124695065" url:"https://objekte-im-netz.fau.de/"
 Q40025 :Agent label:"Friedrich-Alexander-Universität Erlangen-Nürnberg"
-Q21040628 -> Q27863572 :publisher
-Q90412636 -> Q88865971 :publisher
-Q323169 -> Q685171 :publisher
-Q124504881 -> Q896952 :publisher
-Q124529087 -> Q695302 :publisher
-Q124530213 -> Q695302 :publisher
-Q124535956 -> Q315452 :publisher
-Q124536091 -> Q315452 :publisher
-Q124694998 -> Q478695 :publisher
-Q124695065 -> Q40025 :publisher
+http://www.wikidata.org/entity/Q21040628 -> Q27863572 :publisher
+http://www.wikidata.org/entity/Q90412636 -> Q88865971 :publisher
+http://www.wikidata.org/entity/Q323169 -> Q685171 :publisher
+http://www.wikidata.org/entity/Q124504881 -> Q896952 :publisher
+http://www.wikidata.org/entity/Q124529087 -> Q695302 :publisher
+http://www.wikidata.org/entity/Q124530213 -> Q695302 :publisher
+http://www.wikidata.org/entity/Q124535956 -> Q315452 :publisher
+http://www.wikidata.org/entity/Q124536091 -> Q315452 :publisher
+http://www.wikidata.org/entity/Q124694998 -> Q478695 :publisher
+http://www.wikidata.org/entity/Q124695065 -> Q40025 :publisher

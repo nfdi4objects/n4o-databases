@@ -1,7 +1,7 @@
 [
   {
     "name": "KENOM",
-    "wikidata": "Q21040628",
+    "wikidata": "http://www.wikidata.org/entity/Q21040628",
     "publisher": [
       {
         "name": "Verbundzentrale des GBV",
@@ -29,7 +29,7 @@
   },
   {
     "name": "Samian Research",
-    "wikidata": "Q90412636",
+    "wikidata": "http://www.wikidata.org/entity/Q90412636",
     "publisher": [
       {
         "name": "Allard Wijnand Mees",
@@ -52,7 +52,7 @@
   },
   {
     "name": "Münzkabinett",
-    "wikidata": "Q323169",
+    "wikidata": "http://www.wikidata.org/entity/Q323169",
     "publisher": [
       {
         "name": "Stiftung Preußischer Kulturbesitz",
@@ -64,7 +64,7 @@
   },
   {
     "name": "montan.dok",
-    "wikidata": "Q124504881",
+    "wikidata": "http://www.wikidata.org/entity/Q124504881",
     "publisher": [
       {
         "name": "Deutsches Bergbau-Museum Bochum",
@@ -76,7 +76,7 @@
   },
   {
     "name": "IANUS Datenportal",
-    "wikidata": "Q124529087",
+    "wikidata": "http://www.wikidata.org/entity/Q124529087",
     "publisher": [
       {
         "name": "Deutsches Archäologisches Institut",
@@ -89,7 +89,7 @@
   },
   {
     "name": "iDAI.objects",
-    "wikidata": "Q124530213",
+    "wikidata": "http://www.wikidata.org/entity/Q124530213",
     "publisher": [
       {
         "name": "Deutsches Archäologisches Institut",
@@ -102,7 +102,7 @@
   },
   {
     "name": "ADABweb",
-    "wikidata": "Q289880",
+    "wikidata": "http://www.wikidata.org/entity/Q289880",
     "publisher": [],
     "api": [
       {
@@ -118,7 +118,7 @@
   },
   {
     "name": "Forschungsdatenbank so:fie",
-    "wikidata": "Q124535956",
+    "wikidata": "http://www.wikidata.org/entity/Q124535956",
     "publisher": [
       {
         "name": "Klassik Stiftung Weimar",
@@ -130,7 +130,7 @@
   },
   {
     "name": "Digitale Sammlungen der Museen der Klassikstiftung Weimar",
-    "wikidata": "Q124536091",
+    "wikidata": "http://www.wikidata.org/entity/Q124536091",
     "publisher": [
       {
         "name": "Klassik Stiftung Weimar",
@@ -142,7 +142,7 @@
   },
   {
     "name": "Objektkatalog des Germanischen Nationalmuseum",
-    "wikidata": "Q124694998",
+    "wikidata": "http://www.wikidata.org/entity/Q124694998",
     "publisher": [
       {
         "name": "Germanisches Nationalmuseum",
@@ -154,7 +154,7 @@
   },
   {
     "name": "Objekte im Netz",
-    "wikidata": "Q124695065",
+    "wikidata": "http://www.wikidata.org/entity/Q124695065",
     "publisher": [
       {
         "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",

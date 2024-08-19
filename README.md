@@ -69,8 +69,8 @@ von wo weitere Informationen übernommen werden können.
 Zum Zusammenführen der Daten aus [`n4o-databases.csv`] und Wikidata wird Node benötigt:
 
     git clone https://github.com/nfdi4objects/n4o-databases.git
-    npn install
-    ./update.sh
+    npm install
+    make
 
 ## Lizenz
 

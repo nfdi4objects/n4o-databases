@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import fs from 'fs'
 import { pgformat } from 'pgraphs'
 import jsonld from 'jsonld'
@@ -27,7 +25,7 @@ const items = (await wdquery({ ids })).map(item => {
     }))
   return {
     name: labels.de,
-    wikidata: id,
+    wikidata: 'http://www.wikidata.org/entity/' + id,
     publisher: claims.P98 || [],
     url: claims.P856?.[0],
     re3data: claims.P5874?.[0],
