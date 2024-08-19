@@ -25,6 +25,11 @@
           }
         ]
       }
+    ],
+    "type": [
+      "dcat:Catalog",
+      "nfdicore:DataPortal",
+      "fabio:Database"
     ]
   },
   {
@@ -48,6 +53,11 @@
         "protocol": [],
         "format": []
       }
+    ],
+    "type": [
+      "dcat:Catalog",
+      "nfdicore:DataPortal",
+      "fabio:Database"
     ]
   },
   {
@@ -60,7 +70,12 @@
       }
     ],
     "url": "https://www.smb.museum/mk",
-    "api": []
+    "api": [],
+    "type": [
+      "dcat:Catalog",
+      "nfdicore:DataPortal",
+      "fabio:Database"
+    ]
   },
   {
     "name": "montan.dok",
@@ -72,7 +87,12 @@
       }
     ],
     "url": "https://www.montandok.de/",
-    "api": []
+    "api": [],
+    "type": [
+      "dcat:Catalog",
+      "nfdicore:DataPortal",
+      "fabio:Database"
+    ]
   },
   {
     "name": "IANUS Datenportal",
@@ -85,7 +105,12 @@
     ],
     "url": "http://datenportal.ianus-fdz.de/",
     "re3data": "r3d100012361",
-    "api": []
+    "api": [],
+    "type": [
+      "dcat:Catalog",
+      "nfdicore:DataPortal",
+      "fabio:Database"
+    ]
   },
   {
     "name": "iDAI.objects",
@@ -98,7 +123,12 @@
     ],
     "url": "https://arachne.dainst.org/",
     "re3data": "r3d100011407",
-    "api": []
+    "api": [],
+    "type": [
+      "dcat:Catalog",
+      "nfdicore:DataPortal",
+      "fabio:Database"
+    ]
   },
   {
     "name": "ADABweb",
@@ -114,6 +144,11 @@
         ],
         "format": []
       }
+    ],
+    "type": [
+      "dcat:Catalog",
+      "nfdicore:DataPortal",
+      "fabio:Database"
     ]
   },
   {
@@ -126,7 +161,12 @@
       }
     ],
     "url": "http://www.klassik-stiftung.de/sofie",
-    "api": []
+    "api": [],
+    "type": [
+      "dcat:Catalog",
+      "nfdicore:DataPortal",
+      "fabio:Database"
+    ]
   },
   {
     "name": "Digitale Sammlungen der Museen der Klassikstiftung Weimar",
@@ -138,7 +178,12 @@
       }
     ],
     "url": "https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home",
-    "api": []
+    "api": [],
+    "type": [
+      "dcat:Catalog",
+      "nfdicore:DataPortal",
+      "fabio:Database"
+    ]
   },
   {
     "name": "Objektkatalog des Germanischen Nationalmuseum",
@@ -150,7 +195,12 @@
       }
     ],
     "url": "https://objektkatalog.gnm.de/",
-    "api": []
+    "api": [],
+    "type": [
+      "dcat:Catalog",
+      "nfdicore:DataPortal",
+      "fabio:Database"
+    ]
   },
   {
     "name": "Objekte im Netz",
@@ -162,6 +212,11 @@
       }
     ],
     "url": "https://objekte-im-netz.fau.de/",
-    "api": []
+    "api": [],
+    "type": [
+      "dcat:Catalog",
+      "nfdicore:DataPortal",
+      "fabio:Database"
+    ]
   }
 ]

@@ -85,3 +85,4 @@ _:b0 <https://nfdi.fiz-karlsruhe.de/ontology/exportFormat> <http://www.wikidata.
 _:b1 <http://www.w3.org/ns/dcat#accessURL> "https://geo.rgzm.de/geoserver/ows"^^<http://www.w3.org/ns/dcat#anyURI> .
 _:b2 <http://www.w3.org/ns/dcat#accessURL> "http://www.rgzm.de/rest/samianresearch/"^^<http://www.w3.org/ns/dcat#anyURI> .
 _:b3 <http://purl.org/dc/terms/conformsTo> <http://www.wikidata.org/entity/Q189620> .
+
