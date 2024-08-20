@@ -8,10 +8,10 @@ process.stdin
     for (let key in data) {
       if (data[key] === "") delete data[key]
     }
-    if ("id" in data) {
-      data.id = "http://data.nfdi4objects.net/collection/" + data.id
-        data.type = ["fabio:Database","dcat:Dataset"]
-    } else if ("wikidata" in data) {
+    if ("id" in data) {                 // collections = named graphs
+      data.id = "https://graph.nfdi4objects.net/collection/" + data.id
+      data.type = ["fabio:Database","dcat:Dataset"]
+    } else if ("wikidata" in data) {    // databases
       data.id = "http://www.wikidata.org/entity/" + data.id
       // TODO: type
     }

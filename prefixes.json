@@ -9,5 +9,5 @@
   "skos": "http://www.w3.org/2004/02/skos/core#",
   "xsd": "http://www.w3.org/2001/XMLSchema#",
   "wd": "http://www.wikidata.org/entity/",
-  "n4oc": "http://data.nfdi4objects.net/collection/"
+  "n4oc": "https://graph.nfdi4objects.net/collection/"
 }
