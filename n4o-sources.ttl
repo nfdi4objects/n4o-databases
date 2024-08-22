@@ -66,6 +66,13 @@ n4oc:7 a fabio:Database, dcat:Dataset ;
   schema:name "KENOM Virtuelles Münzportal" ;
   foaf:homepage <http://www.kenom.de/> .
 
+wd:Q24578999 dcat:dataset n4oc:13 .
+
+n4oc:13 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "Nomisma" ;
+  foaf:homepage <https://nomisma.org/> .
+
 wd:Q478695 dcat:dataset n4oc:12 .
 
 n4oc:12 a fabio:Database, dcat:Dataset ;

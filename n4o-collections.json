@@ -151,5 +151,18 @@
     "partOf": [
       "https://graph.nfdi4objects.net/collection/"
     ]
+  },
+  {
+    "id": "https://graph.nfdi4objects.net/collection/13",
+    "name": "Nomisma",
+    "url": "https://nomisma.org/",
+    "db": "Q24578999",
+    "type": [
+      "fabio:Database",
+      "dcat:Dataset"
+    ],
+    "partOf": [
+      "https://graph.nfdi4objects.net/collection/"
+    ]
   }
 ]

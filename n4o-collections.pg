@@ -19,3 +19,5 @@ https://nfdi4objects.net/collection/11 :Collection name:"Digitale Sammlungen der
 https://nfdi4objects.net/collection/11 -> http://www.wikidata.org/entity/Q124536091 :partOf
 https://nfdi4objects.net/collection/12 :Collection name:"Graphische Sammlung des Germanisches National Museum" url:"https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung"
 https://nfdi4objects.net/collection/12 -> http://www.wikidata.org/entity/Q478695 :partOf
+https://nfdi4objects.net/collection/13 :Collection name:"Nomisma" url:"https://nomisma.org/"
+https://nfdi4objects.net/collection/13 -> http://www.wikidata.org/entity/Q24578999 :partOf

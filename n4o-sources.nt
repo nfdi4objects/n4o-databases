@@ -6,6 +6,7 @@
 <http://www.wikidata.org/entity/Q124695065> <http://www.w3.org/ns/dcat#dataset> <https://graph.nfdi4objects.net/collection/5> .
 <http://www.wikidata.org/entity/Q124695065> <http://www.w3.org/ns/dcat#dataset> <https://graph.nfdi4objects.net/collection/6> .
 <http://www.wikidata.org/entity/Q21040628> <http://www.w3.org/ns/dcat#dataset> <https://graph.nfdi4objects.net/collection/7> .
+<http://www.wikidata.org/entity/Q24578999> <http://www.w3.org/ns/dcat#dataset> <https://graph.nfdi4objects.net/collection/13> .
 <http://www.wikidata.org/entity/Q478695> <http://www.w3.org/ns/dcat#dataset> <https://graph.nfdi4objects.net/collection/12> .
 <https://graph.nfdi4objects.net/collection/10> <http://purl.org/dc/terms/isPartOf> <https://graph.nfdi4objects.net/collection/> .
 <https://graph.nfdi4objects.net/collection/10> <http://schema.org/name> "African Red Slip Ware" .
@@ -22,6 +23,11 @@
 <https://graph.nfdi4objects.net/collection/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/fabio/Database> .
 <https://graph.nfdi4objects.net/collection/12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
 <https://graph.nfdi4objects.net/collection/12> <http://xmlns.com/foaf/0.1/homepage> <https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung> .
+<https://graph.nfdi4objects.net/collection/13> <http://purl.org/dc/terms/isPartOf> <https://graph.nfdi4objects.net/collection/> .
+<https://graph.nfdi4objects.net/collection/13> <http://schema.org/name> "Nomisma" .
+<https://graph.nfdi4objects.net/collection/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/fabio/Database> .
+<https://graph.nfdi4objects.net/collection/13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
+<https://graph.nfdi4objects.net/collection/13> <http://xmlns.com/foaf/0.1/homepage> <https://nomisma.org/> .
 <https://graph.nfdi4objects.net/collection/1> <http://purl.org/dc/terms/isPartOf> <https://graph.nfdi4objects.net/collection/> .
 <https://graph.nfdi4objects.net/collection/1> <http://schema.org/name> "Ur- und Frühgeschichtliche Sammlung der FAU" .
 <https://graph.nfdi4objects.net/collection/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/fabio/Database> .
