@@ -79,7 +79,7 @@
   },
   {
     "id": "https://graph.nfdi4objects.net/collection/7",
-    "name": "KENOM Virtuelles Münzportal",
+    "name": "KENOM Virtuelles Münzportal (via LIDO)",
     "url": "http://www.kenom.de/",
     "db": "Q21040628",
     "type": [
@@ -154,8 +154,8 @@
   },
   {
     "id": "https://graph.nfdi4objects.net/collection/13",
-    "name": "Nomisma",
-    "url": "https://nomisma.org/",
+    "name": "KENOM (via Nomisma)",
+    "url": "http://www.kenom.de/",
     "db": "Q24578999",
     "type": [
       "fabio:Database",
