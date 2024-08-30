@@ -49,15 +49,15 @@ wd:Q21040628 dcat:dataset n4oc:7 .
 
 n4oc:7 a fabio:Database, dcat:Dataset ;
   dcterms:isPartOf n4oc: ;
-  schema:name "KENOM Virtuelles Münzportal" ;
+  schema:name "KENOM Virtuelles Münzportal (via LIDO)" ;
   foaf:homepage <http://www.kenom.de/> .
 
 wd:Q24578999 dcat:dataset n4oc:13 .
 
 n4oc:13 a fabio:Database, dcat:Dataset ;
   dcterms:isPartOf n4oc: ;
-  schema:name "Nomisma" ;
-  foaf:homepage <https://nomisma.org/> .
+  schema:name "KENOM (via Nomisma)" ;
+  foaf:homepage <http://www.kenom.de/> .
 
 wd:Q478695 dcat:dataset n4oc:12 .
 
@@ -80,4 +80,3 @@ n4oc:9 a fabio:Database, dcat:Dataset ;
   dcterms:isPartOf n4oc: ;
   schema:name "Linked Open Ogham" ;
   foaf:homepage <https://doi.org/10.5281/zenodo.4765603> .
-

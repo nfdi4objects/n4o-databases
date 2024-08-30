@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "update": "node update.js",
-    "jsonld2rdf": "node ./jsonld2rdf.js",
+    "jsonld2rdf": "jsonld2rdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -21,6 +21,7 @@
     "csv": "^6.3.6",
     "csv-parser": "^3.0.0",
     "jsonld": "^8.3.2",
+    "jsonld2rdf": "^0.1.1",
     "pgraphs": "^0.5.1",
     "rdf-ext": "^2.5.2",
     "wikibase-sdk": "^9.2.4"

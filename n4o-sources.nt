@@ -73,4 +73,3 @@
 <https://graph.nfdi4objects.net/collection/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/spar/fabio/Database> .
 <https://graph.nfdi4objects.net/collection/9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .
 <https://graph.nfdi4objects.net/collection/9> <http://xmlns.com/foaf/0.1/homepage> <https://doi.org/10.5281/zenodo.4765603> .
-
