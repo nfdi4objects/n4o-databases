@@ -12,9 +12,12 @@ https://nfdi4objects.net/collection/6 :Collection name:"Schulgeschichtliche Samm
 https://nfdi4objects.net/collection/6 -> http://www.wikidata.org/entity/Q124695065 :partOf
 https://nfdi4objects.net/collection/7 :Collection name:"KENOM Virtuelles Münzportal (via LIDO)" url:"http://www.kenom.de/"
 https://nfdi4objects.net/collection/7 -> http://www.wikidata.org/entity/Q21040628 :partOf
-https://nfdi4objects.net/collection/8 :Collection name:"Samian Research Database" url:"https://rgzm.github.io/samian-lod/"
+https://nfdi4objects.net/collection/8 :Collection name:"Samian Research Database" url:"https://doi.org/10.5281/zenodo.4314355"
+https://nfdi4objects.net/collection/8 -> http://www.wikidata.org/entity/Q22661177 :partOf
 https://nfdi4objects.net/collection/9 :Collection name:"Linked Open Ogham" url:"https://doi.org/10.5281/zenodo.4765603"
+https://nfdi4objects.net/collection/9 -> http://www.wikidata.org/entity/Q22661177 :partOf
 https://nfdi4objects.net/collection/10 :Collection name:"African Red Slip Ware" url:"https://doi.org/10.5281/zenodo.5642751"
+https://nfdi4objects.net/collection/10 -> http://www.wikidata.org/entity/Q22661177 :partOf
 https://nfdi4objects.net/collection/11 :Collection name:"Digitale Sammlungen der Museen der Klassikstiftung Weimar" url:"https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home"
 https://nfdi4objects.net/collection/11 -> http://www.wikidata.org/entity/Q124536091 :partOf
 https://nfdi4objects.net/collection/12 :Collection name:"Graphische Sammlung des Germanisches National Museum" url:"https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung"

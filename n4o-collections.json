@@ -93,7 +93,8 @@
   {
     "id": "https://graph.nfdi4objects.net/collection/8",
     "name": "Samian Research Database",
-    "url": "https://rgzm.github.io/samian-lod/",
+    "url": "https://doi.org/10.5281/zenodo.4314355",
+    "db": "Q22661177",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -106,6 +107,7 @@
     "id": "https://graph.nfdi4objects.net/collection/9",
     "name": "Linked Open Ogham",
     "url": "https://doi.org/10.5281/zenodo.4765603",
+    "db": "Q22661177",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -118,6 +120,7 @@
     "id": "https://graph.nfdi4objects.net/collection/10",
     "name": "African Red Slip Ware",
     "url": "https://doi.org/10.5281/zenodo.5642751",
+    "db": "Q22661177",
     "type": [
       "fabio:Database",
       "dcat:Dataset"

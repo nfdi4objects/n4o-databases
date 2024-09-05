@@ -52,6 +52,23 @@ n4oc:7 a fabio:Database, dcat:Dataset ;
   schema:name "KENOM Virtuelles Münzportal (via LIDO)" ;
   foaf:homepage <http://www.kenom.de/> .
 
+wd:Q22661177 dcat:dataset n4oc:10, n4oc:8, n4oc:9 .
+
+n4oc:10 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "African Red Slip Ware" ;
+  foaf:homepage <https://doi.org/10.5281/zenodo.5642751> .
+
+n4oc:8 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "Samian Research Database" ;
+  foaf:homepage <https://doi.org/10.5281/zenodo.4314355> .
+
+n4oc:9 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "Linked Open Ogham" ;
+  foaf:homepage <https://doi.org/10.5281/zenodo.4765603> .
+
 wd:Q24578999 dcat:dataset n4oc:13 .
 
 n4oc:13 a fabio:Database, dcat:Dataset ;
@@ -65,18 +82,3 @@ n4oc:12 a fabio:Database, dcat:Dataset ;
   dcterms:isPartOf n4oc: ;
   schema:name "Graphische Sammlung des Germanisches National Museum" ;
   foaf:homepage <https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung> .
-
-n4oc:10 a fabio:Database, dcat:Dataset ;
-  dcterms:isPartOf n4oc: ;
-  schema:name "African Red Slip Ware" ;
-  foaf:homepage <https://doi.org/10.5281/zenodo.5642751> .
-
-n4oc:8 a fabio:Database, dcat:Dataset ;
-  dcterms:isPartOf n4oc: ;
-  schema:name "Samian Research Database" ;
-  foaf:homepage <https://rgzm.github.io/samian-lod/> .
-
-n4oc:9 a fabio:Database, dcat:Dataset ;
-  dcterms:isPartOf n4oc: ;
-  schema:name "Linked Open Ogham" ;
-  foaf:homepage <https://doi.org/10.5281/zenodo.4765603> .
