@@ -1,4 +1,4 @@
-all: rdf pg
+all: n4o-collections.json pg
 
 n4o-collections.json: n4o-collections.csv
 	@node csv2json.js < $< > $@

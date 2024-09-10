@@ -20,7 +20,11 @@ https://nfdi4objects.net/collection/10 :Collection name:"African Red Slip Ware" 
 https://nfdi4objects.net/collection/10 -> http://www.wikidata.org/entity/Q22661177 :partOf
 https://nfdi4objects.net/collection/11 :Collection name:"Digitale Sammlungen der Museen der Klassikstiftung Weimar" url:"https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home"
 https://nfdi4objects.net/collection/11 -> http://www.wikidata.org/entity/Q124536091 :partOf
-https://nfdi4objects.net/collection/12 :Collection name:"Graphische Sammlung des Germanisches National Museum" url:"https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung"
+https://nfdi4objects.net/collection/12 :Collection name:"Graphische Sammlung des Germanisches Nationalmuseums" url:"https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung"
 https://nfdi4objects.net/collection/12 -> http://www.wikidata.org/entity/Q478695 :partOf
 https://nfdi4objects.net/collection/13 :Collection name:"KENOM (via Nomisma)" url:"http://www.kenom.de/"
 https://nfdi4objects.net/collection/13 -> http://www.wikidata.org/entity/Q24578999 :partOf
+https://nfdi4objects.net/collection/14 :Collection name:"Kommentierte Online-Edition der fünf Reisetagebücher Hans Posses (1939 -1942)" url:"https://editionhansposse.gnm.de/"
+https://nfdi4objects.net/collection/14 -> http://www.wikidata.org/entity/Q478695 :partOf
+https://nfdi4objects.net/collection/15 :Collection name:"Corpus Vitrearum Medii Aevi Deutschland" url:"https://corpusvitrearum.de/"
+https://nfdi4objects.net/collection/15 -> http://www.wikidata.org/entity/Q122398030 :partOf

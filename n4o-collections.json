@@ -95,6 +95,7 @@
     "name": "Samian Research Database",
     "url": "https://doi.org/10.5281/zenodo.4314355",
     "db": "Q22661177",
+    "license": "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dppl/mdppl/m-DPPL_v3_en_11-2008",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -108,6 +109,7 @@
     "name": "Linked Open Ogham",
     "url": "https://doi.org/10.5281/zenodo.4765603",
     "db": "Q22661177",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -121,6 +123,7 @@
     "name": "African Red Slip Ware",
     "url": "https://doi.org/10.5281/zenodo.5642751",
     "db": "Q22661177",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -144,7 +147,7 @@
   },
   {
     "id": "https://graph.nfdi4objects.net/collection/12",
-    "name": "Graphische Sammlung des Germanisches National Museum",
+    "name": "Graphische Sammlung des Germanisches Nationalmuseums",
     "url": "https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung",
     "db": "Q478695",
     "type": [
@@ -160,6 +163,33 @@
     "name": "KENOM (via Nomisma)",
     "url": "http://www.kenom.de/",
     "db": "Q24578999",
+    "type": [
+      "fabio:Database",
+      "dcat:Dataset"
+    ],
+    "partOf": [
+      "https://graph.nfdi4objects.net/collection/"
+    ]
+  },
+  {
+    "id": "https://graph.nfdi4objects.net/collection/14",
+    "name": "Kommentierte Online-Edition der fünf Reisetagebücher Hans Posses (1939 -1942)",
+    "url": "https://editionhansposse.gnm.de/",
+    "db": "Q478695",
+    "type": [
+      "fabio:Database",
+      "dcat:Dataset"
+    ],
+    "partOf": [
+      "https://graph.nfdi4objects.net/collection/"
+    ]
+  },
+  {
+    "id": "https://graph.nfdi4objects.net/collection/15",
+    "name": "Corpus Vitrearum Medii Aevi Deutschland",
+    "url": "https://corpusvitrearum.de/",
+    "db": "Q122398030",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
