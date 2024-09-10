@@ -1,7 +1,7 @@
 all: n4o-collections.json pg
 
 n4o-collections.json: n4o-collections.csv
-	@node csv2json.js < $< > $@
+	@npm run -s csv2json -- < $< > $@
 
 pg: n4o-collections.pg
 
