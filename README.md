@@ -42,11 +42,6 @@ In [`n4o-collections.csv`] stehen bekannte Sammlungen und
 Datenpublikationen, deren Daten übernommen werden können und falls vorhanden
 die dazu gehörige übergeordnete Datenbank aus [`n4o-databases.csv`].
 
-Das Skript `pg.py` konvertiert die Datei `n4o-collections.csv` ins PG format.
-Mit `make` wird damit die Datei `no4-collections.pg` aktualisiert. Diese Datei
-kann mit `n4o-databases.pg` zusammengeführt werden.
-
-
 ## Erweiterung und Änderung der Daten
 
 Die Dateien [`n4o-databases.csv`] und [`n4o-collections.csv`] können per Pull-Request in GitHub geändert werden.
@@ -78,7 +73,6 @@ Alle Daten stehen als Public Domain (CC0) frei zur Verfügung.
 
 [`n4o-databases.csv`]: n4o-databases.csv
 [`n4o-collections.csv`]: n4o-collections.csv
-[`n4o-collections.pg`]: n4o-collections.pg
 [`n4o-databases.json`]: n4o-databases.json
 [`n4o-databases.nt`]: n4o-databases.nt
 [`n4o-databases.ttl`]: n4o-databases.ttl
