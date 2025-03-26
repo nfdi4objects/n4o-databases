@@ -30,6 +30,7 @@
     "name": "Graphische Sammlung der FAU",
     "url": "https://objekte-im-netz.fau.de/projekt/node/17",
     "db": "Q124695065",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -43,6 +44,7 @@
     "name": "Musikinstrumentensammlung der FAU",
     "url": "https://objekte-im-netz.fau.de/projekt/node/19",
     "db": "Q124695065",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -190,6 +192,20 @@
     "url": "https://corpusvitrearum.de/",
     "db": "Q122398030",
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "type": [
+      "fabio:Database",
+      "dcat:Dataset"
+    ],
+    "partOf": [
+      "https://graph.nfdi4objects.net/collection/"
+    ]
+  },
+  {
+    "id": "https://graph.nfdi4objects.net/collection/16",
+    "name": "Berliner Kunstkammer",
+    "url": "https://doi.org/10.5281/zenodo.13859950",
+    "db": "Q22661177",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
     "type": [
       "fabio:Database",
       "dcat:Dataset"

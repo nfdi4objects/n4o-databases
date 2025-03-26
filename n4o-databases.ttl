@@ -1,0 +1,65 @@
+
+> n4o-databases@0.0.1 jsonld2rdf
+> jsonld2rdf -c context.json -p prefixes.json n4o-databases.json
+
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix nfdicore: <https://nfdi.fiz-karlsruhe.de/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+wd:Q124504881 a fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+  schema:name "montan.dok" ;
+  foaf:homepage <https://www.montandok.de/> .
+
+wd:Q124529087 a fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+  schema:name "IANUS Datenportal" ;
+  foaf:homepage <http://datenportal.ianus-fdz.de/> ;
+  owl:sameAs <https://www.re3data.org/repository/r3d100012361> .
+
+wd:Q124530213 a fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+  schema:name "iDAI.objects" ;
+  foaf:homepage <https://arachne.dainst.org/> ;
+  owl:sameAs <https://www.re3data.org/repository/r3d100011407> .
+
+wd:Q124535956 a fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+  schema:name "Forschungsdatenbank so:fie" ;
+  foaf:homepage <http://www.klassik-stiftung.de/sofie> .
+
+wd:Q124536091 a fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+  schema:name "Digitale Sammlungen der Museen der Klassikstiftung Weimar" ;
+  foaf:homepage <https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home> .
+
+wd:Q124694998 a fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+  schema:name "Objektkatalog des Germanischen Nationalmuseum" ;
+  foaf:homepage <https://objektkatalog.gnm.de/> .
+
+wd:Q124695065 a fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+  schema:name "Objekte im Netz" ;
+  foaf:homepage <https://objekte-im-netz.fau.de/> .
+
+wd:Q21040628 a fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+  schema:name "KENOM" ;
+  foaf:homepage <http://www.kenom.de> ;
+  dcat:distribution [
+    dcat:accessURL "https://www.kenom.de/oai/"^^<http://www.w3.org/ns/dcat#anyURI>
+  ] .
+
+wd:Q289880 a fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+  schema:name "ADABweb" ;
+  dcat:distribution [] .
+
+wd:Q323169 a fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+  schema:name "Münzkabinett" ;
+  foaf:homepage <https://www.smb.museum/mk> .
+
+wd:Q90412636 a fabio:Database, dcat:Catalog, nfdicore:DataPortal ;
+  schema:name "Samian Research" ;
+  foaf:homepage <http://rgzm.de/samian> ;
+  dcat:distribution [
+    dcat:accessURL "https://geo.rgzm.de/geoserver/ows"^^<http://www.w3.org/ns/dcat#anyURI>
+  ], [
+    dcat:accessURL "http://www.rgzm.de/rest/samianresearch/"^^<http://www.w3.org/ns/dcat#anyURI>
+  ] .

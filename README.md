@@ -25,8 +25,8 @@ Weitere Informationen werden in Wikidata eingetragen und von dort abgerufen und 
 - `api` Schnittstellen mit `url`, `protocol` und `format`
 
 Zusätzlich wird die JSON-Datei als JSON-LD mit [diesem Kontext](context.json)
-nach RDF konvertiert und im NTriples-Format in der Datei [`n4o-databases.nt`]
-gespeichert und im Turtle-Format in der Datei [`n4o-databases.ttl`].
+nach RDF konvertiert und im Turtle-Format in der Datei [`n4o-databases.ttl`].
+
 Dabei wird im Wesentlichen das Datenmodell des [NFDI4Culture
 Knowledge Graph](https://nfdi4culture.de/de/dienste/details/culture-knowledge-graph.html)
 verwendet mit folgenden Unterschieden:
@@ -44,7 +44,7 @@ die dazu gehörige übergeordnete Datenbank aus [`n4o-databases.csv`].
 
 ## Erweiterung und Änderung der Daten
 
-Die Dateien [`n4o-databases.csv`] und [`n4o-collections.csv`] können per Pull-Request in GitHub geändert werden.
+Nach Änderungen der Dateien [`n4o-databases.csv`] und [`n4o-collections.csv`] muss lokal `make` aufgerufen werden, um aus den Daten JSON und RDF/Turtle zu erzeugen.
 
 Für Datenbanken und Repositorien sollen in Wikidata folgende Angaben eingetragen werden:
 
@@ -56,7 +56,7 @@ Für Datenbanken und Repositorien sollen in Wikidata folgende Angaben eingetrage
 
 Ein Beispieldatesatz ist <https://www.wikidata.org/wiki/Q21040628> (KENOM).
 
-Zusätzlich sollte die Datenbank bei <a href="https://www.re3data.org/">re3data.org</a> eingetragen werden,
+Zusätzlich sollte die Datenbank bei <https://www.re3data.org> eingetragen werden,
 von wo weitere Informationen übernommen werden können.
 
 ## Zusammenführen der Daten
@@ -74,5 +74,4 @@ Alle Daten stehen als Public Domain (CC0) frei zur Verfügung.
 [`n4o-databases.csv`]: n4o-databases.csv
 [`n4o-collections.csv`]: n4o-collections.csv
 [`n4o-databases.json`]: n4o-databases.json
-[`n4o-databases.nt`]: n4o-databases.nt
 [`n4o-databases.ttl`]: n4o-databases.ttl

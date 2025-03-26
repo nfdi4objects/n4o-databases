@@ -1,0 +1,112 @@
+
+> n4o-databases@0.0.1 jsonld2rdf
+> jsonld2rdf -c context.json -p prefixes.json n4o-collections.json
+
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix n4oc: <https://graph.nfdi4objects.net/collection/> .
+
+wd:Q122398030 dcat:dataset n4oc:15 .
+
+n4oc:15 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  dcterms:license "https://creativecommons.org/publicdomain/zero/1.0/" ;
+  schema:name "Corpus Vitrearum Medii Aevi Deutschland" ;
+  foaf:homepage <https://corpusvitrearum.de/> .
+
+wd:Q124536091 dcat:dataset n4oc:11 .
+
+n4oc:11 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "Digitale Sammlungen der Museen der Klassikstiftung Weimar" ;
+  foaf:homepage <https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home> .
+
+wd:Q124695065 dcat:dataset n4oc:1, n4oc:2, n4oc:3, n4oc:4, n4oc:5, n4oc:6 .
+
+n4oc:1 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "Ur- und Frühgeschichtliche Sammlung der FAU" ;
+  foaf:homepage <https://objekte-im-netz.fau.de/projekt/node/22> .
+
+n4oc:2 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "Paläontologischen Sammlung der FAU|Geowissenschaftliche Sammlung der FAU" ;
+  foaf:homepage <https://objekte-im-netz.fau.de/projekt/node/20> .
+
+n4oc:3 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  dcterms:license "https://creativecommons.org/publicdomain/zero/1.0/" ;
+  schema:name "Graphische Sammlung der FAU" ;
+  foaf:homepage <https://objekte-im-netz.fau.de/projekt/node/17> .
+
+n4oc:4 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  dcterms:license "https://creativecommons.org/publicdomain/zero/1.0/" ;
+  schema:name "Musikinstrumentensammlung der FAU" ;
+  foaf:homepage <https://objekte-im-netz.fau.de/projekt/node/19> .
+
+n4oc:5 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "Medizinische Sammlung der FAU" ;
+  foaf:homepage <https://objekte-im-netz.fau.de/projekt/node/18> .
+
+n4oc:6 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "Schulgeschichtliche Sammlung der FAU und Schulmuseum" ;
+  foaf:homepage <https://objekte-im-netz.fau.de/projekt/node/21> .
+
+wd:Q21040628 dcat:dataset n4oc:7 .
+
+n4oc:7 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "KENOM Virtuelles Münzportal (via LIDO)" ;
+  foaf:homepage <http://www.kenom.de/> .
+
+wd:Q22661177 dcat:dataset n4oc:10, n4oc:16, n4oc:8, n4oc:9 .
+
+n4oc:10 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  dcterms:license "http://creativecommons.org/licenses/by/4.0/" ;
+  schema:name "African Red Slip Ware" ;
+  foaf:homepage <https://doi.org/10.5281/zenodo.5642751> .
+
+n4oc:16 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  dcterms:license "http://creativecommons.org/licenses/by/4.0/" ;
+  schema:name "Berliner Kunstkammer" ;
+  foaf:homepage <https://doi.org/10.5281/zenodo.13859950> .
+
+n4oc:8 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  dcterms:license "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dppl/mdppl/m-DPPL_v3_en_11-2008" ;
+  schema:name "Samian Research Database" ;
+  foaf:homepage <https://doi.org/10.5281/zenodo.13832255> .
+
+n4oc:9 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  dcterms:license "http://creativecommons.org/licenses/by/4.0/" ;
+  schema:name "Linked Open Ogham" ;
+  foaf:homepage <https://doi.org/10.5281/zenodo.4765603> .
+
+wd:Q24578999 dcat:dataset n4oc:13 .
+
+n4oc:13 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "KENOM (via Nomisma)" ;
+  foaf:homepage <http://www.kenom.de/> .
+
+wd:Q478695 dcat:dataset n4oc:12, n4oc:14 .
+
+n4oc:12 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "Graphische Sammlung des Germanisches Nationalmuseums" ;
+  foaf:homepage <https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung> .
+
+n4oc:14 a fabio:Database, dcat:Dataset ;
+  dcterms:isPartOf n4oc: ;
+  schema:name "Kommentierte Online-Edition der fünf Reisetagebücher Hans Posses (1939 -1942)" ;
+  foaf:homepage <https://editionhansposse.gnm.de/> .

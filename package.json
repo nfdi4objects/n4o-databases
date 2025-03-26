@@ -1,11 +1,11 @@
 {
   "name": "n4o-databases",
   "version": "0.0.1",
-  "description": "List of databases from N4O members to be integrated",
+  "description": "List of databases and collections to be integrated into the NFDI4Object Knowledge Graph",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "csv2json": "node ./csv2json.js",
+    "jsonld2rdf": "jsonld2rdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,15 +14,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@jeswr/pretty-turtle": "^1.5.0",
-    "@rdfjs/parser-n3": "^2.0.2",
-    "commander": "^12.1.0",
-    "csv": "^6.3.6",
     "csv-parser": "^3.0.0",
-    "rdf-ext": "^2.5.2",
-    "wikibase-sdk": "^9.2.4"
-  },
-  "devDependencies": {
-    "@rdfjs-elements/formats-pretty": "^0.6.7"
+    "jsonld2rdf": "^0.5.1"
   }
 }
