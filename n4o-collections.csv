@@ -1,17 +1,17 @@
-id,name,url,db,license,format
-1,Ur- und Frühgeschichtliche Sammlung der FAU,https://objekte-im-netz.fau.de/projekt/node/22,Q124695065,,rdf
-2,Paläontologischen Sammlung der FAU|Geowissenschaftliche Sammlung der FAU,https://objekte-im-netz.fau.de/projekt/node/20,Q124695065,,rdf
-3,Graphische Sammlung der FAU,https://objekte-im-netz.fau.de/projekt/node/17,Q124695065,https://creativecommons.org/publicdomain/zero/1.0/,rdf
-4,Musikinstrumentensammlung der FAU,https://objekte-im-netz.fau.de/projekt/node/19,Q124695065,https://creativecommons.org/publicdomain/zero/1.0/,rdf
-5,Medizinische Sammlung der FAU,https://objekte-im-netz.fau.de/projekt/node/18,Q124695065,,rdf
-6,Schulgeschichtliche Sammlung der FAU und Schulmuseum,https://objekte-im-netz.fau.de/projekt/node/21,Q124695065,,rdf
-7,KENOM Virtuelles Münzportal,http://www.kenom.de/,Q21040628,,lido
-8,Samian Research Database,https://doi.org/10.5281/zenodo.13832255,Q22661177,https://www.hbz-nrw.de/produkte/open-access/lizenzen/dppl/mdppl/m-DPPL_v3_en_11-2008,rdf
-9,Linked Open Ogham,https://doi.org/10.5281/zenodo.4765603,Q22661177,http://creativecommons.org/licenses/by/4.0/,rdf
-10,African Red Slip Ware,https://doi.org/10.5281/zenodo.5642751,Q22661177,http://creativecommons.org/licenses/by/4.0/,rdf
-11,Digitale Sammlungen der Museen der Klassikstiftung Weimar,https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home,Q124536091,,lido
-12,Graphische Sammlung des Germanisches Nationalmuseums,https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung,Q478695,,lido
-13,KENOM (via Nomisma),http://www.kenom.de/,Q24578999,,rdf
-14,Kommentierte Online-Edition der fünf Reisetagebücher Hans Posses (1939 -1942),https://editionhansposse.gnm.de/,Q478695,,rdf
-15,Corpus Vitrearum Medii Aevi Deutschland,https://corpusvitrearum.de/,Q122398030,https://creativecommons.org/publicdomain/zero/1.0/,lido
-16,Berliner Kunstkammer,https://doi.org/10.5281/zenodo.13859950,Q22661177,http://creativecommons.org/licenses/by/4.0/,rdf
+id,name,url,db,license,format,access
+1,Ur- und Frühgeschichtliche Sammlung der FAU,https://objekte-im-netz.fau.de/projekt/node/22,Q124695065,,rdf,
+2,Paläontologischen Sammlung der FAU|Geowissenschaftliche Sammlung der FAU,https://objekte-im-netz.fau.de/projekt/node/20,Q124695065,,rdf,
+3,Graphische Sammlung der FAU,https://objekte-im-netz.fau.de/projekt/node/17,Q124695065,https://creativecommons.org/publicdomain/zero/1.0/,rdf,
+4,Musikinstrumentensammlung der FAU,https://objekte-im-netz.fau.de/projekt/node/19,Q124695065,https://creativecommons.org/publicdomain/zero/1.0/,rdf,
+5,Medizinische Sammlung der FAU,https://objekte-im-netz.fau.de/projekt/node/18,Q124695065,,rdf,
+6,Schulgeschichtliche Sammlung der FAU und Schulmuseum,https://objekte-im-netz.fau.de/projekt/node/21,Q124695065,,rdf,
+7,KENOM Virtuelles Münzportal,http://www.kenom.de/,Q21040628,,lido,https://www.kenom.de/oai/
+8,Samian Research Database,https://doi.org/10.5281/zenodo.13832255,Q22661177,https://www.hbz-nrw.de/produkte/open-access/lizenzen/dppl/mdppl/m-DPPL_v3_en_11-2008,rdf,https://doi.org/10.5281/zenodo.13832255
+9,Linked Open Ogham,https://doi.org/10.5281/zenodo.4765603,Q22661177,http://creativecommons.org/licenses/by/4.0/,rdf,https://doi.org/10.5281/zenodo.4765603
+10,African Red Slip Ware,https://doi.org/10.5281/zenodo.5642751,Q22661177,http://creativecommons.org/licenses/by/4.0/,rdf,https://doi.org/10.5281/zenodo.5642751
+11,Digitale Sammlungen der Museen der Klassikstiftung Weimar,https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home,Q124536091,,lido,
+12,Graphische Sammlung des Germanisches Nationalmuseums,https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung,Q478695,,lido,
+13,KENOM (via Nomisma),http://www.kenom.de/,Q24578999,,rdf,http://numismatics.org/rdf/kenom.rdf
+14,Kommentierte Online-Edition der fünf Reisetagebücher Hans Posses (1939 -1942),https://editionhansposse.gnm.de/,Q478695,,rdf,
+15,Corpus Vitrearum Medii Aevi Deutschland,https://corpusvitrearum.de/,Q122398030,https://creativecommons.org/publicdomain/zero/1.0/,lido,
+16,Berliner Kunstkammer,https://doi.org/10.5281/zenodo.13859950,Q22661177,http://creativecommons.org/licenses/by/4.0/,rdf,https://doi.org/10.5281/zenodo.13859950

@@ -12,7 +12,13 @@ process.stdin
       data.uri = `https://graph.nfdi4objects.net/collection/${data.id}`
       data.type = ["fabio:Database","dcat:Dataset"]
       data.partOf = ["https://graph.nfdi4objects.net/collection/"]
-      data.format = `https://format.gbv.de/${data.format}`
+      if (data.access) {
+        data.access = {
+          url: data.access,
+          format: `https://format.gbv.de/${data.format}`
+        }
+      }
+      delete data.format
     } else if ("wikidata" in data) {    // databases
       data.id = "http://www.wikidata.org/entity/" + data.id
       // TODO: type
