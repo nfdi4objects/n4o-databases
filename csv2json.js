@@ -9,9 +9,10 @@ process.stdin
       if (data[key] === "") delete data[key]
     }
     if ("id" in data) {                 // collections = named graphs
-      data.id = "https://graph.nfdi4objects.net/collection/" + data.id
+      data.uri = `https://graph.nfdi4objects.net/collection/${data.id}`
       data.type = ["fabio:Database","dcat:Dataset"]
       data.partOf = ["https://graph.nfdi4objects.net/collection/"]
+      data.format = `https://format.gbv.de/${data.format}`
     } else if ("wikidata" in data) {    // databases
       data.id = "http://www.wikidata.org/entity/" + data.id
       // TODO: type

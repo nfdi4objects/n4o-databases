@@ -1,9 +1,11 @@
 [
   {
-    "id": "https://graph.nfdi4objects.net/collection/1",
+    "id": "1",
     "name": "Ur- und Frühgeschichtliche Sammlung der FAU",
     "url": "https://objekte-im-netz.fau.de/projekt/node/22",
     "db": "Q124695065",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/1",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -13,10 +15,12 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/2",
+    "id": "2",
     "name": "Paläontologischen Sammlung der FAU|Geowissenschaftliche Sammlung der FAU",
     "url": "https://objekte-im-netz.fau.de/projekt/node/20",
     "db": "Q124695065",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/2",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -26,11 +30,13 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/3",
+    "id": "3",
     "name": "Graphische Sammlung der FAU",
     "url": "https://objekte-im-netz.fau.de/projekt/node/17",
     "db": "Q124695065",
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/3",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -40,11 +46,13 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/4",
+    "id": "4",
     "name": "Musikinstrumentensammlung der FAU",
     "url": "https://objekte-im-netz.fau.de/projekt/node/19",
     "db": "Q124695065",
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/4",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -54,10 +62,12 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/5",
+    "id": "5",
     "name": "Medizinische Sammlung der FAU",
     "url": "https://objekte-im-netz.fau.de/projekt/node/18",
     "db": "Q124695065",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/5",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -67,10 +77,12 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/6",
+    "id": "6",
     "name": "Schulgeschichtliche Sammlung der FAU und Schulmuseum",
     "url": "https://objekte-im-netz.fau.de/projekt/node/21",
     "db": "Q124695065",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/6",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -80,10 +92,12 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/7",
-    "name": "KENOM Virtuelles Münzportal (via LIDO)",
+    "id": "7",
+    "name": "KENOM Virtuelles Münzportal",
     "url": "http://www.kenom.de/",
     "db": "Q21040628",
+    "format": "https://format.gbv.de/lido",
+    "uri": "https://graph.nfdi4objects.net/collection/7",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -93,11 +107,13 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/8",
+    "id": "8",
     "name": "Samian Research Database",
     "url": "https://doi.org/10.5281/zenodo.13832255",
     "db": "Q22661177",
     "license": "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dppl/mdppl/m-DPPL_v3_en_11-2008",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/8",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -107,11 +123,13 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/9",
+    "id": "9",
     "name": "Linked Open Ogham",
     "url": "https://doi.org/10.5281/zenodo.4765603",
     "db": "Q22661177",
     "license": "http://creativecommons.org/licenses/by/4.0/",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/9",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -121,11 +139,13 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/10",
+    "id": "10",
     "name": "African Red Slip Ware",
     "url": "https://doi.org/10.5281/zenodo.5642751",
     "db": "Q22661177",
     "license": "http://creativecommons.org/licenses/by/4.0/",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/10",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -135,10 +155,12 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/11",
+    "id": "11",
     "name": "Digitale Sammlungen der Museen der Klassikstiftung Weimar",
     "url": "https://ores.klassik-stiftung.de/ords/ksw_internet/r/300/home",
     "db": "Q124536091",
+    "format": "https://format.gbv.de/lido",
+    "uri": "https://graph.nfdi4objects.net/collection/11",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -148,10 +170,12 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/12",
+    "id": "12",
     "name": "Graphische Sammlung des Germanisches Nationalmuseums",
     "url": "https://www.gnm.de/sammlungen/sammlungen-a-z/graphische-sammlung",
     "db": "Q478695",
+    "format": "https://format.gbv.de/lido",
+    "uri": "https://graph.nfdi4objects.net/collection/12",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -161,10 +185,12 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/13",
+    "id": "13",
     "name": "KENOM (via Nomisma)",
     "url": "http://www.kenom.de/",
     "db": "Q24578999",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/13",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -174,10 +200,12 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/14",
+    "id": "14",
     "name": "Kommentierte Online-Edition der fünf Reisetagebücher Hans Posses (1939 -1942)",
     "url": "https://editionhansposse.gnm.de/",
     "db": "Q478695",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/14",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -187,11 +215,13 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/15",
+    "id": "15",
     "name": "Corpus Vitrearum Medii Aevi Deutschland",
     "url": "https://corpusvitrearum.de/",
     "db": "Q122398030",
     "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "format": "https://format.gbv.de/lido",
+    "uri": "https://graph.nfdi4objects.net/collection/15",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
@@ -201,11 +231,13 @@
     ]
   },
   {
-    "id": "https://graph.nfdi4objects.net/collection/16",
+    "id": "16",
     "name": "Berliner Kunstkammer",
     "url": "https://doi.org/10.5281/zenodo.13859950",
     "db": "Q22661177",
     "license": "http://creativecommons.org/licenses/by/4.0/",
+    "format": "https://format.gbv.de/rdf",
+    "uri": "https://graph.nfdi4objects.net/collection/16",
     "type": [
       "fabio:Database",
       "dcat:Dataset"
