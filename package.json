@@ -4,7 +4,6 @@
   "description": "List of databases and collections to be integrated into the NFDI4Object Knowledge Graph",
   "type": "module",
   "scripts": {
-    "csv2json": "node ./csv2json.js",
     "jsonld2rdf": "jsonld2rdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +13,6 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "csv-parser": "^3.0.0",
     "jsonld2rdf": "^0.5.1"
   }
 }

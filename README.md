@@ -38,13 +38,12 @@ Darüber hinaus werden die Daten als Property Graph als PG-JSON bzw. PG format g
 
 ### Collections
 
-In [`n4o-collections.csv`] stehen bekannte Sammlungen und
-Datenpublikationen, deren Daten übernommen werden können und falls vorhanden
-die dazu gehörige übergeordnete Datenbank aus [`n4o-databases.csv`].
+In [`n4o-collections.json`] stehen bekannte Sammlungen und Datenpublikationen, deren Daten übernommen werden können und falls vorhanden
+die dazu gehörige übergeordnete Datenbank aus [`n4o-databases.csv`]. Die Collections-Einträge müssen dem JSON-Schema <https://github.com/nfdi4objects/n4o-graph-importer/blob/main/collection-schema.json> entsprechen.
 
 ## Erweiterung und Änderung der Daten
 
-Nach Änderungen der Dateien [`n4o-databases.csv`] und [`n4o-collections.csv`] muss lokal `make` aufgerufen werden, um aus den Daten JSON und RDF/Turtle zu erzeugen.
+Nach Änderungen der Dateien [`n4o-databases.csv`] und [`n4o-collections.json`] muss lokal `make` aufgerufen werden, um aus den Daten JSON und RDF/Turtle zu erzeugen.
 
 Für Datenbanken und Repositorien sollen in Wikidata folgende Angaben eingetragen werden:
 
@@ -72,6 +71,6 @@ Zum Zusammenführen der Daten aus [`n4o-databases.csv`] und Wikidata wird Node b
 Alle Daten stehen als Public Domain (CC0) frei zur Verfügung. 
 
 [`n4o-databases.csv`]: n4o-databases.csv
-[`n4o-collections.csv`]: n4o-collections.csv
+[`n4o-collections.json`]: n4o-collections.json
 [`n4o-databases.json`]: n4o-databases.json
 [`n4o-databases.ttl`]: n4o-databases.ttl
