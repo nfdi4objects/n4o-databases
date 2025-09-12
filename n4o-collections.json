@@ -90,10 +90,10 @@
     "name": "KENOM Virtuelles Münzportal",
     "url": "http://www.kenom.de/",
     "db": "Q21040628",
-    "access": {
+    "distributions": [{
       "url": "https://www.kenom.de/oai/",
       "format": "https://format.gbv.de/lido"
-    },
+    }],
     "uri": "https://graph.nfdi4objects.net/collection/7",
     "type": [
       "fabio:Database",
@@ -109,10 +109,10 @@
     "url": "https://doi.org/10.5281/zenodo.13832255",
     "db": "Q22661177",
     "license": "https://www.hbz-nrw.de/produkte/open-access/lizenzen/dppl/mdppl/m-DPPL_v3_en_11-2008",
-    "access": {
+    "distributions": [{
       "url": "https://doi.org/10.5281/zenodo.13832255",
       "format": "https://format.gbv.de/rdf"
-    },
+    }],
     "uri": "https://graph.nfdi4objects.net/collection/8",
     "type": [
       "fabio:Database",
@@ -128,10 +128,10 @@
     "url": "https://doi.org/10.5281/zenodo.4765603",
     "db": "Q22661177",
     "license": "http://creativecommons.org/licenses/by/4.0/",
-    "access": {
+    "distributions": [{
       "url": "https://doi.org/10.5281/zenodo.4765603",
       "format": "https://format.gbv.de/rdf"
-    },
+    }],
     "uri": "https://graph.nfdi4objects.net/collection/9",
     "type": [
       "fabio:Database",
@@ -147,7 +147,7 @@
     "url": "https://doi.org/10.5281/zenodo.5642751",
     "db": "Q22661177",
     "license": "http://creativecommons.org/licenses/by/4.0/",
-    "access": {
+    "distributions": [{
       "url": "https://doi.org/10.5281/zenodo.5642751",
       "format": "https://format.gbv.de/rdf"
     },
@@ -193,10 +193,10 @@
     "name": "KENOM (via Nomisma)",
     "url": "http://www.kenom.de/",
     "db": "Q24578999",
-    "access": {
+    "distributions": [{
       "url": "http://numismatics.org/rdf/kenom.rdf",
       "format": "https://format.gbv.de/rdf"
-    },
+    }],
     "uri": "https://graph.nfdi4objects.net/collection/13",
     "type": [
       "fabio:Database",
@@ -241,10 +241,10 @@
     "url": "https://doi.org/10.5281/zenodo.13859950",
     "db": "Q22661177",
     "license": "http://creativecommons.org/licenses/by/4.0/",
-    "access": {
+    "distributions": [{
       "url": "https://doi.org/10.5281/zenodo.13859950",
       "format": "https://format.gbv.de/rdf"
-    },
+    }],
     "uri": "https://graph.nfdi4objects.net/collection/16",
     "type": [
       "fabio:Database",
