@@ -10,7 +10,7 @@ Der Datensatz besteht aus zwei CSV-Dateien.
 
 ### Databases
 
-Die Liste von Forschungsdatenbanekn und Repositorien [`n4o-databases.csv`] mit zwei Spalten:
+Die Liste von Forschungsdatenbanken und Repositorien [`n4o-databases.csv`] mit zwei Spalten:
 
 - `name` der Datenbank
 - `wikidata` Identifier der Datenbank (QID)

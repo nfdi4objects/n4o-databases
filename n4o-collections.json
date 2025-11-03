@@ -150,7 +150,7 @@
     "distributions": [{
       "url": "https://doi.org/10.5281/zenodo.5642751",
       "format": "https://format.gbv.de/rdf"
-    },
+    }],
     "uri": "https://graph.nfdi4objects.net/collection/10",
     "type": [
       "fabio:Database",
